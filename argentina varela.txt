@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>ARGENTINA</title>
+</head>
+<body>
+    <h1 style="font-family: ARGENTINA; font-size: 80px;">ARGENTINA PAIS CON MAYOR SUPERFISIE DE LA TIERRA</h1>
+
+    <h2 style="color: red;">CAPITAL: BUENOS AIRES</h2>
+    <img src="C:\Users\Estudiante\Documents\ARGENTINA DARIANYELY" alt="BANDERA DE ARGENTINA"/>
+  
+    <p>en la región centro-este del país, sobre la orilla occidental del Río de la Plata, en plena llanura pampeana</p>
+
+    <h3>PRESIDENTE ACTUAL</h3>
+    <p>Javier Gerardo Milei es un economista, político y docente argentino, actual presidente de la Nación Argentina desde el 10 de diciembre de 2023 y líder del espacio político La Libertad Avanza.</p>
+    <p>Cargo anterior: Miembro de la Cámara de Diputados de la Nación Argentina (2021–2023)</p>
+
+    <h4>LIMITES DE ARGENTINA</h4>
+    <img src="C:\Users\Estudiante\Documents\ARGENTINA DARIANYELY" alt="mapa de argentina"/>
+        
+    <p>
+        Norte: Estado Plurinacional de Bolivia y República del Paraguay.<br>
+        Sur: República de Chile y Océano Atlántico Sur.<br>
+        Este: República Federativa del Brasil, República Oriental del Uruguay y Océano Atlántico Sur.<br>
+        Oeste: República de Chile.
+    </p>
+
+    <h5>ACTIVIDAD ECONOMICA</h5>
+    <p>Entre los sectores clave se encuentran las finanzas, el turismo, las telecomunicaciones, la sanidad, la educación y el comercio minorista. Las finanzas, en particular la banca y los seguros, desempeñan un papel crucial en la economía argentina.<br>
+    Política y economía Argentina - Santandertrade.com, Santander Trade</p>
+ 
+    <div>
+        <button onclick="mostrarcontenido('pestaña1')">IDENTIFICACION DEL PAIS</button>
+        <button onclick="mostrarcontenido('pestaña2')">CARACTERISTICAS GENERALES DEL PAIS</button>
+        <button onclick="mostrarcontenido('pestaña3')">TURISMO EN EL PAIS</button>
+    </div>
+
+    <div id="pestaña1">
+        <h1 style="font-family: calibri; font-size: 40px;">ARGENTINA PAIS CON MAYOR SUPERFISIE DE LA TIERRA</h1>
+    </div>
+
+    <div id="pestaña2">
+        <h2 style="color: red;">CARACTERISTICAS GENERALES DE ARGENTINA</h2>
+
+        <p>POBLACION DE ARGENTINA</p>
+        <p>Argentina, con una población de 45.808.747 personas, se encuentra en la posición 31 de la tabla de población, compuesta por 196 países y mantiene una muy baja densidad de población, 16 habitantes por Km2. Su capital es Buenos Aires y su moneda Pesos argentinos. Argentina es la economía número 23 por volumen de PIB</p> 
+
+        <p>CULTURA DE ARGENTINA</p>
+        <p>
+            Saludar con beso. Los argentinos son personas increíblemente afectuosas.<br>
+            La sensualidad del Tango.<br>
+            Juntarse con los amigos para hacer un asado.<br>
+            El fútbol es una religión.<br>
+            Compartir el mate, un ritual sagrado.<br>
+            Hablar siempre de política.<br>
+            Las empanadas argentinas.<br>
+            Los alfajores.
+        </p>
+
+        <h1 style="font-family: calibri; font-size: 40px;">CARACTERISTICAS GENERALES DE ARGENTINA</h1>
+        <h2 style="color: red;">CARACTERISTICAS GENERALES DE ARGENTINA</h2> 
+
+        <p>
+            Superficie: 3.761.274 km²<br>
+            N° habitantes: 46.234.830 (Resultados del Censo Nacional de Población, Hogares y Viviendas 2022).<br>
+            Capital: Ciudad Autónoma de Buenos Aires.<br>
+            Idioma oficial: español.<br>
+            Unidad monetaria: peso.<br>
+            Hora oficial: GMT -3h (tres horas menos que la de Greenwich).<br>
+            Dominio de Internet: .ar.
+        </p> 
+    </div>
+
+    <h3 style="font-family: calibri; font-size: 40px;">TURISMO ARGENTINA</h3>
+    <p>El turismo en Argentina es, con 6.759.000 turistas en 2017 según la Organización Mundial del Turismo, el país más visitado de Sudamérica y el segundo, Argentina cuenta con varios tipos de turismo, incluyendo: turismo cultural, turismo de aventura, turismo rural, turismo de playa, turismo de esquí, turismo de negocios y turismo de lujo.</p>                                   
+
+    <table border="1">
+        <tr>  
+            <th></th>
+            <th>TOUR 1</th>
+            <th>TOUR 2</th>
+            <th>TOUR 3</th>
+            <th>TOUR 4</th>
+            <th>TOUR 5</th>
+        </tr>
+        <tr>
+            <td>LUGAR</td>
+            <td>LAS CATARATAS DEL IGUAZU</td>
+            <td>PARQUE PROVINCIAL ISCHIGUALASTO</td>
+            <td>TEATRO COLON</td>
+            <td>PARQUE NACIONAL LOS GLACIARES</td>
+            <td>JARDIN JAPONES</td>
+        </tr>
+        <tr>
+            <td>UBICACION</td>
+            <td>Norte de la provincia de Misiones</td>
+            <td>Noreste de la provincia de San Juan</td>
+            <td>Ubicado en la Plaza de Mayo</td>
+            <td>Sudoeste de la provincia de Santa Cruz</td>
+            <td>Buenos Aires</td>
+        </tr>
+        <tr>
+            <td>ACTIVIDADES PARA HACER</td>
+            <td>Paseo Inferior<br>Paseo Superior<br>Garganta del Diablo<br>Sendero Macuco</td>
+            <td>Se visitan algunas de las geoformas más famosas como El Hongo, El Submarino, la Cancha de Bochas y Valle Pintado</td> 
+            <td>Una experiencia en la que vas a poder descubrir las grandes producciones surgidas de los talleres de uno de los pocos Teatros Fábrica del mundo</td> 
+            <td>En el Parque Nacional Los Glaciares la actividad está reglamentada y se pueden pescar mayormente salmónidos y truchas</td>
+            <td>Cursos, charlas y exposiciones sobre distintas disciplinas japonesas, como el aikido y el arte del bonsái</td>                 
+        </tr>
+        <tr>
+            <td>FOTOS</td>                 
+            <td><img src="C:\Users\Estudiante\Documents\ARGENTINA (DARIANYELY).3PG" alt="las cataratas de iguazu"></td>
+            <td><img src="C:\Users\Estudiante\Documents\ARGENTINA DARIANYELY).3GP" alt="PARQUE PROVINCIAL ISCHIGUALASTO"></td>
+        </tr>
+    </table>
+
+    <footer>
+        <p>NOMBRE: DARIANYELY VARELA<br>
+        CURSO: 801<br>
+        COLEGIO: ANTONIO JOSE URIBE<br>
+        AÑO: 2023</p>
+    </footer>
+</body>
+</html>
+

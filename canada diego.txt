@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CANADÁ</title>
+</head>
+<body>
+    <div>
+        <button onclick="mostrarContenido('pestaña1')">INFORMACIÓN</button>
+        <button onclick="mostrarContenido('pestaña2')">CARACTERÍSTICAS</button>
+        <button onclick="mostrarContenido('pestaña3')">TURISMO</button>
+    </div>
+    <div id="pestaña1">
+        <h1><p style="font-family: Calibri; font-size: 65px;">CANADÁ: EL PAÍS MÁS GRANDE DE AMÉRICA</p></h1>
+        <p>Canadá es el país norteamericano que se extiende desde los Estados Unidos en el sur hasta el círculo polar ártico en el norte. Las ciudades principales incluyen la enorme Toronto, Vancouver, el centro cinematográfico de la costa oeste, las ciudades de habla francesa Montreal y Quebec, y la capital Ottawa. Las vastas franjas de naturaleza de Canadá incluyen el Parque Nacional Banff ubicado en un lago en las Montañas Rocosas. También incluye las cataratas del Niágara, un famoso grupo de enormes cascadas.</p>
+        <img src="ruta/a/la/imagen.jpg" alt="mapa de Canadá">
+    </div>
+    <div id="pestaña2">
+        <div style="background-color:#D1F2EB;">
+            <h2><p style="color: blue;">CAPITAL DE CANADÁ</p></h2>
+            <p>OTTAWA es la capital de Canadá, en la provincia de Ontario en el sureste, cerca de la ciudad de Montreal y la frontera con Estados Unidos. Ubicada en el río Ottawa, en su centro se ubica Parliament Hill, con una imponente arquitectura victoriana y museos, como la Galería Nacional de Canadá, con notables colecciones de arte indígena y otras obras de arte canadienses. El Canal Rideau rodeado de parques está lleno de botes en verano y de personas que practican patinaje sobre hielo en invierno.</p>
+        </div>
+        <div style="background-color:#E6B0AA;">
+            <h3><p style="color: red;">PRESIDENTE ACTUAL</p></h3>
+            <p>Justin Pierre James Trudeau (pronunciación en francés: /ʒystɛ̃ tʁydo/, pronunciación en inglés: /ˈd͡ʒʌstɪn ˈtɹudoʊ/; Ottawa, 25 de diciembre de 1971) es un político canadiense. Tras la victoria por mayoría absoluta del Partido Liberal en las elecciones federales de octubre de 2015, es el primer ministro de Canadá desde el 4 de noviembre de 2015. Lidera el Partido Liberal de Canadá desde el 14 de abril de 2013. Desde 2008 es parlamentario por el distrito electoral de Papineau.</p>
+        </div>
+        <div style="background-color:#D7BDE2;">
+            <h4><p style="color: red;">LÍMITES CON MAPAS</p></h4>
+            <p>Limita al sur con Estados Unidos, al norte con el Océano Glaciar Ártico, al este con el Océano Atlántico, y al oeste con el Océano Pacífico y Estados Unidos (Alaska). Comparte 8.893 km de frontera con Estados Unidos, único país con el que limita por tierra.</p>
+        </div>
+       <div style="background-color:#FCF3CF;">
+            <h4><p style="color: red;">ABSTRACT DE CANADÁ</p></h4>
+            <p>Canadá, un país vasto y diverso ubicado en América del Norte, es conocido por sus impresionantes paisajes naturales, sociedad multicultural y economía sólida. Con una población de más de 37 millones de personas, Canadá se destaca por su compromiso con la diversidad, la inclusión y los valores progresistas. El gobierno del país opera bajo una democracia parlamentaria, con una monarquía constitucional encabezada por un primer ministro. La economía de Canadá está altamente desarrollada, con industrias clave que incluyen recursos naturales, manufactura, tecnología y servicios. Sus ricos recursos naturales, incluidos petróleo, madera y minerales, contribuyen significativamente a su prosperidad económica. Los sistemas educativos y de atención médica de Canadá son altamente valorados, brindando servicios accesibles y de alta calidad a sus ciudadanos. Además, el compromiso de Canadá con la conservación del medio ambiente y el desarrollo sostenible se refleja en sus políticas e iniciativas destinadas a preservar su belleza natural y combatir el cambio climático. En general, Canadá se erige como un faro de democracia, diversidad y prosperidad en el escenario mundial.</p>
+        </div>
+    </div>
+    <div id="pestaña3">
+        <div style="background-color:#D6EAF8;">
+            <h4 style="color: red;">TURISMO</h4>
+            <p>Los tours o viajes que nadie se puede perder en Canadá son:</p>
+            <table border="2">
+                <tr>
+                    <th></th>
+                    <th>TOUR 1</th>
+                    <th>TOUR 2</th>
+                    <th>TOUR 3</th>
+                    <th>TOUR 4</th>  
+                    <th>TOUR 5</th>
+                </tr>   
+                <tr>
+                    <td>NOMBRE DEL LUGAR</td>
+                    <td>TORONTO</td>
+                    <td>PARQUE NACIONAL BANFF</td>
+                    <td>QUEBEC</td>
+                    <td>CATARATAS DEL NIÁGARA</td>
+                    <td>TORRE CN</td>
+                </tr>
+                <tr>
+                    <td>UBICACIÓN</td>
+                    <td>Dentro del área metropolitana de Toronto en el lado occidental del lago Ontario, directamente frente al lago desde las Cataratas del Niágara</td>
+                    <td>Establecido en las Montañas Rocosas en 1885. Localizado a 180 km (80 millas) al oeste</td>
+                    <td>Se ubica en el río San Lorenzo en la provincia canadiense de Quebec</td>
+                    <td>Situadas en el río Niágara, en la zona noreste de América del Norte, entre Canadá y Estados Unidos</td>
+                    <td>Toronto Canadá 290 Bremner Blvd, Toronto, ON M5V 3L9, Canadá</td>
+                </tr>
+                <tr>
+                    <td>COSTO</td>
+                    <td>Adulto $142,72, Niños $6,30</td>
+                    <td>$34,973</td>
+                    <td>Adulto $46, Niños $35</td>
+                    <td>$25</td>
+                </tr>
+                <tr>
+                    <td>ACTIVIDADES PARA DESARROLLAR</td>
+                    <td>Acuario Ripley de Canadá</td>
+                    <td>Sunshine Village: Áreas para esquiar y practicar</td>
+                    <td>Montmorency</td>
+                    <td>Navegar en barco</td>
+                    <td>Hacer un brindis mientras ves las vistas de la Torre CN</td>
+                </tr>
+                <tr>
+                    <td>MEDIO DE TRANSPORTE PARA LLEGAR</td>
+                    <td>Volar que cuesta $230 - $700 y dura 8h 14m</td>
+                    <td>Caro de alquiler mediano: $114,526</td>
+                    <td>Volar que cuesta $220 - $900 y dura 11h 10m</td>
+                    <td>Greyhound $1.75 y Megabus $2.25</td>
+                    <td>Línea 504 tranvía cuesta $3</td>
+                </tr>
+                <tr>
+                    <td>COSTO TOTAL DEL TOUR</td>
+                    <td>Por día $150, son 5 días: $750 costo total</td>
+                    <td>$174,865</td>
+                    <td> $230</td>
+                    <td>$125</td>
+                    <td> $265</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+<script>
+        // Oculta todo el contenido de las pestañas al cargar la página
+        window.onload = function() {
+            var contenidos = document.querySelectorAll('div[id^="pestaña"]');
+            for (var i = 0; i < contenidos.length; i++) {
+                contenidos[i].style.display = 'none';
+            }
+            // Muestra la imagen solo en la primera pestaña
+            document.querySelector('.imagen').style.display = 'block';
+        };
+
+        function mostrarContenido(id) {
+            // Oculta todos los elementos con la clase "contenido"
+            var contenidos = document.querySelectorAll('div[id^="pestaña"]');
+            for (var i = 0; i < contenidos.length; i++) {
+                contenidos[i].style.display = 'none';
+            }
+            // Muestra el contenido de la pestaña seleccionada
+            var contenidoSeleccionado = document.getElementById(id);
+            contenidoSeleccionado.style.display = 'block';
+            // Oculta la imagen en las otras pestañas
+            document.querySelector('.imagen').style.display = 'none';
+        }
+    </script>
+    <footer>
+        <p>Diego Arévalo
+        801
+        Antonio José Uribe A.J.U </p>
+        2024
+    </footer> 
+</body>
+</html>
+
+      
+
+
+

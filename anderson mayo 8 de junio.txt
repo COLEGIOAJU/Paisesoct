@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MEXICO</title>
+</head>
+<body>
+    <div>
+        <button onclick="mostrarcontenido('pestaña1')">INFORMACION DEL PAIS</button>
+        <button onclick="mostrarcontenido('pestaña2')">CARACTERISTICAS DEL PAIS</button>
+        <button onclick="mostrarcontenido('pestaña3')">TOURES</button>
+    </div>
+
+    <div id="pestaña1">
+        <h1>Bandera de Mexico</h1>
+        <img src="Flag_of_Mexico.png" alt="Bandera de Mexico">
+        <h1>
+            <p style="font-family: Calibri; font-size: 80px;">MEXICO</p>
+        </h1>
+        <div style="background-color: #f0f0f0;">
+            <h2 style="color: red;">CAPITAL</h2>
+            <p>LA CAPITAL DE MEXICO ES:<br>
+                CIUDAD DE MEXICO<br>
+                El Distrito Federal, ubicado en el llamado Valle de México
+            </p>
+        </div>
+        <div style="background-color: #3498DB;">
+            <h3 style="color: blue;">PRESIDENTE ACTUAL DE MEXICO</h3>
+            <p style="font-family: Arial; font-size: 18px;">Andrés Manuel López Obrador (Tepetitán, Tabasco, 13 de noviembre de 1953), referido también por las siglas AMLO, es un político y escritor mexicano. Es el actual presidente de los Estados Unidos Mexicanos desde el 1 de diciembre de 2018. Es miembro del partido político Morena. López Obrador, en 2023.</p>
+        </div>
+        <div style="background-color: #E8DAEF;">
+            <h4 style="color: green;">LIMITES</h4>
+            <p style="font-family: Times New Roman; font-size: 16px;">LIMITES DE MEXICO:<br>
+                Limita al norte con Estados Unidos y al sur con Guatemala y Belice.<br>
+                México comparte una larga frontera norte con Estados Unidos de América y una al sur con Guatemala y Belice. Al este limita con el Golfo de México y al oeste con el Océano Pacífico.
+            </p>
+        </div>
+        <h1>IMAGEN EN HTML</h1>
+        <img src="mapamexico.jpg" alt="Mapa de México">
+    </div>
+
+    <div id="pestaña2">
+        <h1>ACTIVIDAD ECONOMICA</h1>
+        <p>Producción Agrícola.<br>
+            Producción Pecuaria.<br>
+            Producción Pesquera.<br>
+            Producción Forestal.<br>
+            Comercio y Servicios.<br>
+            Minería.<br>
+            Turismo.
+        </p>
+    </div>
+
+    <div id="pestaña3">
+        <table border="1">
+            <tr>
+                <td>lugar 1</td>
+                <td>ubicación de chichen itza: Chichén Itzá está localizada al oriente de Yucatán, por la carretera a Cancún, a 120 km. de Mérida.</td>
+                <td>ubicación de san miguel allende: Sí, la distancia conduciendo entre Guanajuato y San Miguel de Allende es de 77 km. Dura aproximadamente 1h 18m para conducir desde Guanajuato a San Miguel de Allende.</td>
+                <td>ubicación de Palenque, Chiapas: Se ubica en el corazón del sureste de México, al noreste del estado de Chiapas, en una zona de selva tropical alta donde abundan cascadas y ríos.</td>
+                <td>ubicación de monte alban: 8 kilómetros de la ciudad de Oaxaca de Juárez.</td>
+                <td>ubicación de Tulum, Quintana Roo: en Quintana Roo, en el sureste de México.</td>
+            </tr>
+            <tr>
+                <td>actividad para hacer en chichen itza: zona arqueológica de Chichen Itza.</td>
+                <td>actividad para hacer en san miguel allende: la gruta spa, parroquia de San Miguel Arcángel.</td>
+                <td>actividad para hacer en Palenque, Chiapas: zona arqueológica de Palenque.</td>
+                <td>actividad para hacer en monte alban: visita arqueológica guiada a Monte Alban.</td>
+                <td>actividad para hacer en Tulum, Quintana Roo: visitar las zonas arqueológicas cercanas a Tulum.</td>
+            </tr>
+            <tr>
+                <td>foto de chichen itza:</td>
+                <td><img src="imagen1.jpg" alt="Chichen Itza"></td>
+                <td>foto de san miguel allende:</td>
+                <td><img src="licensed-image.jpg" alt="San Miguel Allende"></td>
+                <td>foto de palenque:</td>
+                <td><img src="descarga3.jpg" alt="Palenque"></td>
+                <td>foto de monte alban:</td>
+                <td><img src="vista-monte-alban.jpg" alt="Monte Alban"></td>
+                <td>foto de Tulum:</td>
+                <td><img src="Tulum-aerea-web.jpg" alt="Tulum"></td>
+            </tr>
+            <tr>
+                <td>costo de visita de chichen itza: Chichén Itzá, Yucatán 2024. La entrada a Chichén Itzá general para mexicanos es de 272 pesos (14 euros). Los domingos la entrada es gratuita para extranjeros residentes en México y nacionales. Por otro lado, si vienes en coche tendrás que pagar 80 pesos (4 euros) de parking.</td>
+                <td>costo de visita de san miguel allende: El costo de servicios generales de vivienda en San Miguel de Allende es relativamente razonable. En promedio, los gastos mensuales de electricidad, agua, gas, teléfono fijo y basura pueden ascender a unos $170 USD al mes.</td>
+                <td>costo de visita de palenque:</td>
+            </tr>
+        </table>
+    </div>
+
+    <script>
+        // Oculta todo el contenido de las pestañas al cargar la página
+        window.onload = function() {
+            var contenidos = document.querySelectorAll('div[id^="pestaña"]');
+            for (var i = 0; i < contenidos.length; i++) {
+                contenidos[i].style.display = 'none';
+            }
+        };
+        
+        function mostrarcontenido(id) {
+            // Oculta todos los elementos con el id que comienza con "pestaña"
+            var contenidos = document.querySelectorAll('div[id^="pestaña"]');
+            for (var i = 0; i < contenidos.length; i++) {
+                contenidos[i].style.display = 'none';
+            }
+            // Muestra el contenido de la pestaña seleccionada
+            var contenidoSeleccionado = document.getElementById(id);
+            contenidoSeleccionado.style.display = 'block';
+        }
+    </script>
+    
+    <footer>
+        <p>Pagina hecha por: ANDERSON YESID CAMARGO SUAREZ</p>
+        <p>Curso: 801</p>
+        <p>Colegio: ANTONIO JOSE URIBE</p>
+        <p>Año: 2024</p>
+    </footer>
+</body>
+</html>

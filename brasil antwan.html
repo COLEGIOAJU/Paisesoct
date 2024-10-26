@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Brasil</title>
+</head>
+<body>
+    <div>
+        <button onclick="mostrarContenido('pestaña1')">IDENTIFICACIÓN DEL PAÍS</button>
+        <button onclick="mostrarContenido('pestaña2')">CARACTERÍSTICAS GENERALES DEL PAÍS</button>
+        <button onclick="mostrarContenido('pestaña3')">TURISMO EN EL PAÍS</button>
+    </div>
+    <div id="pestaña1">
+        <h1 style="font-family: Calibri; font-size: 80px;">Brasil</h1>
+        <h2>Brasil es un país ubicado en el sur de América</h2>
+        <h1><p style="font-family: Calibri; font-size: 40px;">Brasil, país de la riqueza en la naturaleza</p></h1>
+        <h2><p style="color: red;">Capital</p></h2>
+        <p>Brasilia Límites: limita con Venezuela, Colombia, Guyana, Guyana francesa, Uruguay, al sur con Paraguay, Bolivia, Argentina, al oeste con Perú y al este con el océano Atlántico.</p>
+        <img src="ruta_de_la_imagen" alt="BANDERA DE Brasil">
+        <h4></h4>
+        <h3><p style="color: blue;"></p></h3>
+        <p style="font-family: Arial; font-size: 18px;"></p>
+    </div>
+    <!-- Comentario: Este es un comentario que no se mostrará en la página web -->
+    <h2><p style="color: red;">Qué significa Brasilia</p></h2>
+    <p>La capital de Brasil es:<br> Brasilia <br> Es la capital federal de Brasil y la sede del Gobierno del Distrito Federal, localizada en la región Centro-Oeste del país.<br>15°47′00″S 47°45′00″O<br></p>
+    <div style="background-color: #3498DB;">
+        <h3><p style="color: blue;">PRESIDENTE ACTUAL</p></h3>
+        <p style="font-family: Arial; font-size: 18px;">Luiz Inacio Lula Da Silva nombrado presidente de Brasil desde 2023</p>
+    </div>
+    <img src="ruta_de_la_imagen" alt="">
+    <div style="background-color: #E8DAEF;">
+        <h4><p style="color: green;"></p></h4>
+        <p style="font-family: Arial; font-size: 18px;"></p>
+    </div>
+    <h2>Cosas importantes de Brasil</h2>
+    <p style="color: red;">El país de la samba, el fútbol y el Carnaval es uno de los grandes destinos del Sur de América para salir de compras. Rico en productos artesanos - donde abundan las figuras de madera, barro, piedra, así como los encajes- Brasil está repleto de productos exclusivos y de diseño para todos los gustos.</p>
+    <div style="background-color: #3498DB;">
+        <h3>Cultura en BRASIL <p style="color: blue;">La cultura de Brasil es eminentemente marcada por grandes y diversas corrientes migratorias provenientes de todos los continentes, sumado al intenso mestizaje. Brasil está conformado por muy diversos pueblos, lo que se refleja en su cultura, que posee elementos principalmente indígenas, africanos y europeos.</p></h3>
+        <p style="font-family: Arial; color: red; font-size: 18px;"></p>
+    </div>
+    <img src="ruta_de_la_imagen" alt="mapa de Brasil">
+    <div style="background-color: #E8DAEF;">
+        <h4><p style="color: green;"></p></h4>
+        <p style="font-family: Arial; font-size: 18px;"></p>
+    </div>
+    <p></p>
+    <div id="pestaña2">
+        <h1></h1>
+    </div>
+    <div id="pestaña3">
+        <table border="4">
+            <tr>
+                <th></th>
+                <th>sitio1</th>
+                <th>sitio 2</th>
+                <th>sitio 3</th>
+                <th>sitio 4</th>
+                <th>sitio 5</th>
+            </tr>
+            <tr>
+                <td>ubicación</td>
+                <td>ubicación sitio 1</td>
+                <td>ubicación sitio 2</td>
+                <td>ubicación sitio 3</td>
+                <td>ubicación sitio 4</td>
+                <td>ubicación sitio 5</td>
+            </tr>
+            <tr>
+                <td>actividades para hacer</td>
+                <td>actividades para hacer sitio 1</td>
+                <td>actividades para hacer sitio 2</td>
+                <td>actividades para hacer sitio 3</td>
+                <td>actividades para hacer sitio 4</td>
+                <td>actividades para hacer sitio 5</td>
+            </tr>
+            <tr>
+                <td>fotos</td>
+                <td>fotos sitio 1</td>
+                <td>fotos sitio 2</td>
+                <td>fotos sitio 3</td>
+                <td>fotos sitio 4</td>
+                <td>fotos sitio 5</td>
+            </tr>
+            <tr>
+                <td>costo de visita</td>
+                <td>costo de visita sitio 1</td>
+                <td>costo de visita sitio 2</td>
+                <td>costo de visita sitio 3</td>
+                <td>costo de visita sitio 4</td>
+                <td>costo de visita sitio 5</td>
+            </tr>
+            <tr>
+                <td>medios de transporte</td>
+                <td>medios de transporte sitio 1</td>
+                <td>medios de transporte sitio 2</td>
+                <td>medios de transporte sitio 3</td>
+                <td>medios de transporte sitio 4</td>
+                <td>medios de transporte sitio 5</td>
+            </tr>
+            <tr>
+                <td>costo total</td>
+                <td>costo total sitio 1</td>
+                <td>costo total sitio 2</td>
+                <td>costo total sitio 3</td>
+                <td>costo total sitio 4</td>
+                <td>costo total sitio 5</td>
+            </tr>
+        </table>
+        <footer><br>
+            <p>Hecho por Antwan Camilo Márquez Contreras del curso 802 2024 Colegio Antonio José Uribe</p>
+        </footer>
+    </div>
+    <script>
+        // Oculta todo el contenido de las pestañas al cargar la página
+        window.onload = function() {
+            var contenidos = document.querySelectorAll('div[id^="pestaña"]');
+            for (var i = 0; i < contenidos.length; i++) {
+                contenidos[i].style.display = 'none';
+            }
+            // Muestra la imagen solo en la primera pestaña
+            document.querySelector('.imagen').style.display = 'block';
+        };
+
+        function mostrarContenido(id) {
+            // Oculta todos los elementos con la clase "contenido"
+            var contenidos = document.querySelectorAll('div[id^="pestaña"]');
+            for (var i = 0; i < contenidos.length; i++) {
+                contenidos[i].style.display = 'none';
+            }
+            // Muestra el contenido de la pestaña seleccionada
+            var contenidoSeleccionado = document.getElementById(id);
+            contenidoSeleccionado.style.display = 'block';
+            // Oculta la imagen en las otras pestañas
+            document.querySelector('.imagen').style.display = 'none';
+        }
+    </script>
+
+</body>
+</html>

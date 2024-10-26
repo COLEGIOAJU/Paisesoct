@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bolivia</title>
+    </head>
+    <body>
+        <div>
+            <button onclick="mostrarContenido('pestaña1')">Identificación</button>
+            <button onclick="mostrarContenido('pestaña2')">Características</button>
+            <button onclick="mostrarContenido('pestaña3')">Sitios turísticos</button>
+            <button onclick="mostrarContenido('pestaña4')">Abstract</button>
+        </div>
+
+        <div id="pestaña1">
+            <h1 style="font-family: ALGERIAN; font-size: 40px;">Bolivia la nación más indígena de Latinoamérica</h1>
+            <h2>
+                <img src="BANDERABOLIVIA.JPG" alt="BANDERA DE BOLIVIA">
+            </h2>
+            <h3 style="font-family: Broadway; font-size: 35px;">Presidente actual</h3>
+            <p style="margin-bottom: 10px;">El Gobierno constitucional de Luis Arce Catacora comenzó oficialmente el 8 de noviembre de 2020. Fue elegido mediante las urnas en las elecciones generales de Bolivia de 2020.</p>
+
+            <h4 style="font-family: Broadway; font-size: 35px;">Capital</h4>
+            <p style="margin-bottom: 10px;">La ciudad de La Paz, ubicada en el Estado Plurinacional de Bolivia, es la capital del departamento de La Paz y sede del Gobierno boliviano y de los Poderes Legislativos y Ejecutivos, aunque la capital según la Constitución Política del Estado es Sucre.</p>
+
+            <h5 style="font-family: Broadway; font-size: 35px;">Límites</h5>
+            <p style="margin-bottom: 10px;"></p>
+            <h6>
+                <img src="LIMITES DE BOLIVIA.PNG" alt="MAPA DE LOS LIMITES DE BOLIVIA">
+            </h6>
+            <p style="margin-bottom: 10px;">Bolivia limita al norte y al este con el Brasil, al sur con Paraguay y Argentina, y al oeste con Chile y Perú.</p>
+        </div>
+
+        <div id="pestaña2">
+            <h8 style="font-family: Broadway; font-size: 35px;">Actividad económica</h8>
+            <p style="margin-bottom: 10px;">Las actividades económicas más importantes en Bolivia son la minería y la explotación de hidrocarburos, siendo la segunda mayor reserva de gas natural de América del Sur. Sin embargo, la agricultura fue creciendo fuertemente, principalmente en las provincias orientales.</p>
+
+            <h9 style="font-family: Broadway; font-size: 35px;">Población</h9>
+            <p style="margin-bottom: 10px;">Bolivia, con una población de 12.079.472 personas, se encuentra en la posición 80 de la tabla de población, compuesta por 196 países y mantiene una muy baja densidad de población, 11 habitantes por Km2.</p>
+            <p>La población boliviana está compuesta por varias etnias: las comunidades indígenas (sobre todo quechua y aymará) constituyen más del 50% de los habitantes del país; los mestizos el 30%; los bolivianos de origen europeo son el 12% y los ciudadanos restantes pertenecen a otras etnias.</p>
+
+            <h10 style="font-family: Broadway; font-size: 35px;">Cultura</h10>
+            <p style="margin-bottom: 10px;">La cultura de Bolivia es muy rica y diversa gracias a los diferentes orígenes del pueblo boliviano. La sociedad boliviana aglutina a personas de origen español (descendientes de los colonizadores), grupos indígenas de los Andes y mestizos, que son el producto de la mezcla de los dos primeros.</p>
+        </div>
+
+        <div id="pestaña3">
+            <h10 style="font-family: Broadway; font-size: 35px;">Turismo</h10>
+            <p style="margin-bottom: 10px;"></p>
+            <table border="1">
+                <tr>
+                    <th></th>
+                    <th>Parque Nacional Madidi</th>
+                    <th>Salar de Uyuni</th>
+                    <th>Parque Nacional Toro Toro</th>
+                    <th>Valle de la Luna</th>
+                    <th>Estadio Municipal de Villa Ingenio</th>
+                </tr>
+                <tr>
+                    <td>Ubicación</td>
+                    <td>Ucumari, Bolivia</td>
+                    <td>Departamento de Potosí en el Estado Plurinacional de Bolivia</td>
+                    <td>Calaota, Bolivia</td>
+                    <td>Atacama, en la Región de Antofagasta</td>
+                    <td>El Alto, en la provincia de Murillo del departamento de La Paz</td>
+                </tr>
+                <tr>
+                    <td>Actividad para hacer</td>
+                    <td>Durante las caminatas podrán aprender diferentes temáticas sobre el bosque: uso de las plantas medicinales, árboles maderables, uso y utilidad de las palmeras, comportamiento de los animales, procesos ecológicos y la interpretación natural del bosque tropical lluvioso</td>
+                    <td>Visitar el cementerio de trenes y el monumento de Dakar, y recorrer una refinería de sal. Además, pasar una noche en uno de los hoteles de sal más populares de la región y disfrutar de las vistas desde el volcán Tunupa</td>
+                    <td>Visitar el amplio parque de senderismo y hacer caminatas entre cañones y cuevas, con vistas de huellas y fósiles de dinosaurios</td>
+                    <td>Estar en contacto con la naturaleza, sentir el aire fresco de las montañas y apreciar hermosos paisajes de la Cordillera Real</td>
+                    <td>Estar y ver partidos desde el estadio más grande del mundo</td>
+                </tr>
+                <tr>
+                    <td>Foto</td>
+                    <td><img src="Parque_nacional_Madidi.JPG" alt="Parque nacional Madidi"></td>
+                    <td><img src="Salar_de_Uyuni.JPG" alt="Salar de Uyuni"></td>
+                    <td><img src="Parque_nacional_Toro_toro.JPG" alt="Parque nacional Toro Toro"></td>
+                    <td><img src="Valle_de_la_Luna.JPG" alt="Valle de la Luna"></td>
+                    <td><img src="Estadio_municipal_de_Villa_Ingenio.JPG" alt="Estadio municipal de Villa Ingenio"></td>
+                </tr>
+                <tr>
+                    <td>Costo de visita</td>
+                    <td>Transporte: 436 US$; Alojamiento: 72 US$; Alimentación: 2.00-4.00 US$; Entrada y tour: 2.66 US$ para locales y 3.00 US$ para extranjeros</td>
+                    <td>Transporte: Entre los 400 y 800 dólares estadounidenses; Alojamiento: Entre 100 y 300 dólares estadounidenses por noche; Alimentación: Entre 20 y 50 bolivianos por persona; Entrada y tour: alrededor de 50 a 100 dólares estadounidenses para los extranjeros y menos para los ciudadanos bolivianos</td>
+                    <td>Transporte: Puede oscilar entre 50 y 100 bolivianos por trayecto; Alojamiento: Entre 50 y 200 bolivianos por noche; Alimentación: Alrededor de 50 a 100 bolivianos; Entrada y tour: Alrededor de 50 a 100 bolivianos para los extranjeros y menos para los ciudadanos bolivianos</td>
+                    <td>Transporte: 500 US$; Alojamiento: 85 US$; Alimentación: 75 US$; Entrada y tour: 50 US$ para locales y 75 US$ para extranjeros</td>
+                    <td>Transporte: 300 US$; Alojamiento: 50 US$; Alimentación: 45 US$; Entrada y tour: 37 US$ para locales y 62 US$ para extranjeros</td>
+                </tr>
+                <tr>
+                    <td>Medios de transporte</td>
+                    <td>Avión y bus</td>
+                    <td>Avión y bus</td>
+                    <td>Avión, carro y bus</td>
+                    <td>Avión, bus y taxi</td>
+                    <td>Avión, bus y taxi</td>
+                </tr>
+                <tr>
+                    <td>Costo total</td>
+                    <td>911 US$</td>
+                    <td>850-1200 US$</td>
+                    <td>350 US$</td>
+                    <td>400 US$</td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="pestaña4">
+            <h10 style="font-family: Broadway; font-size: 35px;">Abstract</h10>
+            <p style="margin-bottom: 10px;"></p>
+        </div>
+
+        <footer>
+            <p>Página hecha por: Juan
+        </footer>
+    </body>
+</html>

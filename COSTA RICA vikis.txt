@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>COSTA RICA</title>
+</head>
+<body>
+    <div>
+        <button onclick="mostrarcontenido('pestaña1')">identificación</button>
+        <button onclick="mostrarcontenido('pestaña2')">características</button>
+        <button onclick="mostrarcontenido('pestaña3')">sitios turísticos</button>
+    </div>
+    <div id="pestaña1">
+        <h1 style="color: #0AA3A7;">COSTA RICA</h1>
+        <img src="C:\Users\DOCENTE\Documents\repubica (A)" alt="bandera dominicana"/>
+        <h2 style="color:#0AA3A7;">CAPITAL:</h2>
+        <h3>El nombre oficial es Costa Rica, cuya capital es Santo Domingo. El país está situado en el Archipiélago de las Antillas Mayores y en la parte oriental de la isla La Española, que comparte con Haití, ocupando un poco más de dos terceras partes de la misma.</h3>
+        <h2 style="color:#0AA3A7;">LÍMITES DEL PAÍS:</h2>
+        <h3>Limita al norte con el océano Atlántico (586 km), al sur con el mar Caribe, al oeste con el canal de Mona que separa de Puerto Rico y al oeste con Haití.</h3>
+        <h2 style="color:#0AA3A7;">COSTA RICA</h2>
+        <h3>La bandera y sus características:</h3>
+        <h3>Se compone de los colores: azul ultramar y rojo bermellón, en cuarteles esquinados y alternos de tal manera que el azul debe quedar en la parte superior del asta, separados por una cruz blanca de un ancho igual a la mitad de la altura de cada cuartel, llevando en su centro el escudo de armas de la República Dominicana.</h3>
+        <h2 style="color:#0AA3A7;">PRESIDENTE ACTUAL DE COSTA RICA:</h2>
+        <h2 style="color:#5212c2;">RODRIGO CHAVES ROBLES:</h2>
+        <h3>El actual presidente es Rodrigo Chaves Robles, surgido de las filas del Partido Revolucionario Moderno e investido el 16 de agosto de 2020.</h3>
+        <h2>POBLACIÓN DE COSTA RICA</h2>
+    </div>
+    <div id="pestaña2">
+        <h3 style="color:#0AA3A7;">ACTIVIDAD ECONÓMICA:</h3>
+        <h3>La economía de Costa Rica depende principalmente del comercio exterior, los servicios, la minería, la industria farmacéutica, componentes electrónicos, equipos médicos, minería, textil y calzado y el turismo, siendo estos sectores los pilares de una economía diversificada y una industria altamente desarrollada.</h3>
+    </div>
+    <div id="pestaña3">
+        <h1 style="font-family: 'Bernard MT Condensed'; font-size: 50px;">TURISMO</h1>
+        <p style="margin-bottom:20px;"></p>
+        <table border="1">
+            <tr>
+                <th></th>
+                <th>República</th>
+                <th>La Playa</th>
+                <th>Parque Nacional El Boquerón</th>
+                <th>Cascadas de Tamanique</th>
+                <th>Estadio Nacional Jorge "El Mágico" González</th>
+            </tr>
+            <tr>
+                <td>UBICACIÓN</td>
+                <td>San Salvador es uno de los 14 departamentos de El Salvador ubicado en la zona central de El Salvador</td>
+                <td>Centro de Confinamiento del Terrorismo (CECOT), ubicado en el municipio de Tecoluca, en San Vicente. Peligrosidad miembros de pandillas. Punta y un sistema de extrema seguridad</td>
+                <td>El Área natural protegida El Boquerón es un parque natural de El Salvador que se encuentra en la parte superior del volcán de San Salvador, a 1800 metros (5905 pies) sobre el nivel del mar</td>
+                <td>Tamanique La Libertad CP, 1522, El Salvador. Ubicado a solo 20 minutos de la costa de La Libertad se encuentra el pueblo de Tamanique</td>
+                <td>El Estadio Nacional Jorge “El Mágico” González se encuentra en la ciudad de San Salvador, la capital de El Salvador. Más preciso 49 Avenida Sur, De la Flor Blanca</td>
+            </tr>
+            <tr>
+                <td>ACTIVIDAD PARA HACER</td>
+                <td>Ir a diferentes partes de San Salvador como el parque nacional El Boquerón, Lago Coatepeque, Iglesia El Rosario, Catedral Metropolitana, Yacimiento Arqueológico Joya de Cerén.</td>
+                <td>A los presos no se les permite hablar sin autorización y tampoco tienen actividades recreativas. Como pudieron constatar los periodistas, las celdas de castigo son oscuras y no tienen nada en su interior. Tampoco está permitida la visita de familiares.</td>
+                <td>En el parque Boquerón se puede caminar por sus extensos senderos y ver las vistas maravillosas.</td>
+                <td>En las cascadas Tamanique se puede nadar, ver las cascadas y comer.</td>
+                <td>Ver los partidos de la CONCACAF y de la MLS, también se puede ir a turistear el estadio.</td>
+            </tr>
+            <tr>
+                <td>COSTO DE VISITA</td>
+                <td>El vuelo cuesta a partir de 813,000 hasta 1,700,000 dólares solo ida. En hoteles cuesta de 65 a 259 dólares un día. La canasta básica del Salvador ronda los 185,16 dólares y la canasta familiar ronda los 256,81 dólares. El taxi cuesta: La tarifa básica es 4,81 R$, el precio del kilómetro es 2,42 R$. Para el tiempo de espera y de espera, se cobra por hora 24,12 R$. El tren cuesta a partir de 3,20 a 9,95 dólares. El bus cuesta 35 centavos.</td>
+                <td>La cárcel se puede ver desde afuera, el costo de ir en taxi cuesta 228,00 dólares, en bus cuesta 82,00 dólares. No hay tren para ir.</td>
+                <td>El costo de entrada al parque nacional El Boquerón cuesta 18 dólares a extranjeros. El taxi cuesta de 12-18 dólares según el tráfico. En el parque también hay transporte donde cuesta de 160,000 dólares y varía según el tamaño del grupo.</td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+    <footer>
+        <p style="color:#0AA3A7;">PÁGINA HECHA POR: DUVAN DAVID JACANAMIJOY GONZALEZ<br>
+        CURSO: 802<br>
+        COLEGIO: Antonio Jose Uribe<br>
+        AÑO: 2024</p>
+    </footer>
+</body>
+</html>

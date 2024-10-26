@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Estados Unidos</title>
+    <script>
+      function mostrarContenido(pestaña) {
+        var pestañas = document.querySelectorAll('.pestaña');
+        for (var i = 0; i < pestañas.length; i++) {
+          pestañas[i].style.display = 'none';
+        }
+        document.getElementById(pestaña).style.display = 'block';
+      }
+    </script>
+  </head>
+  <body>
+    <div>
+      <button onclick="mostrarContenido('pestaña1')">Información</button>
+      <button onclick="mostrarContenido('pestaña2')">Características Generales</button>
+      <button onclick="mostrarContenido('pestaña3')">Abstract</button>
+    </div>
+
+    <div id="pestaña1" class="pestaña">
+      <h1>Estados Unidos</h1>
+      <div style="background-color:#D2B4DE;">
+        Estados Unidos es un país de 50 estados que ocupa una extensa franja de América del Norte, con Alaska en el noroeste y Hawái que extiende la presencia del país en el océano Pacífico. Entre las principales ciudades de la costa del Atlántico, se encuentran Nueva York, un centro global financiero y cultural, y la capital Washington D. C. Chicago, metrópolis del medio oeste, es famosa por su influencia arquitectónica y, en la costa oeste, Hollywood, Los Ángeles, es famosa por la industria cinematográfica.
+        <img src="URL_TO_FLAG_IMAGE" alt="BANDERA DE ESTADOS UNIDOS">
+        <h2>Washington D. C.</h2>
+        Washington D. C., la capital de Estados Unidos, es una ciudad compacta junto al río Potomac, que bordea los estados de Maryland y Virginia. Se caracteriza por sus imponentes monumentos y edificios neoclásicos, incluidos aquellos icónicos que albergan las 3 ramas del gobierno federal: el Capitolio, la Casa Blanca y la Corte Suprema. También cuenta con icónicos museos y escenarios de artes escénicas, como el Centro Kennedy.
+        <img src="URL_TO_WASHINGTON_IMAGE" alt="Washington">
+        <h3>Límites</h3>
+        La mayor parte del país se ubica en el centro de América del Norte donde se encuentran sus 48 estados contiguos y Washington D.C.-, entre los océanos Pacífico y el Atlántico, limitando con Canadá al norte y con México al sur.
+        <img src="URL_TO_BOUNDARIES_IMAGE" alt="Límites EEUU">
+        <h4>Presidente Actual/Joe Biden</h4>
+        Joseph Robinette Biden Jr., más conocido como Joe Biden, es un abogado y político estadounidense. Es el 46.º y actual presidente de los Estados Unidos desde el 20 de enero de 2021.
+        <img src="URL_TO_PRESIDENT_IMAGE" alt="Presidente EEUU">
+      </div>
+      <h5>Principales Actividades Económicas</h5>
+      El sector de servicios es, con gran diferencia, el que cuenta con mayor peso dentro de la economía estadounidense. En 2021, este sector representó el 77,6% del PIB del país. En contraste, el sector agrícola contribuyó con menos del 1% al PIB estadounidense.
+      <img src="URL_TO_ECONOMIC_ACTIVITY_IMAGE" alt="Actividad Económica">
+    </div>
+
+    <div id="pestaña3" class="pestaña">
+      <h6>Abstract</h6>
+      It is a sovereign country constituted in a constitutional federal republic made up of fifty states and one federal district. It borders to the north, with Canada; and to the south, with Mexico. Its capital is Washington D.C. and its most populated city is New York. Most of the country is located in the middle of North America - where its 48 contiguous states and Washington D.C. are located - between the Pacific and Atlantic oceans.
+      The state of Alaska is in the northwest of the continent, bordering Canada to the east, separated from Russia to the west by the Bering Strait.
+      The state of Hawaii is a Polynesian archipelago located in Oceania, in the middle of the Pacific Ocean and is the only one of its states that is not located in America. The country has several unincorporated territories in the Caribbean Sea and the Pacific, and unlike the latter, an "unorganized incorporated territory": the Palmyra Atoll.
+    </div>
+
+    <div id="pestaña2" class="pestaña">
+      <footer>
+        <p>Deiby Samuel Gomez Pedreros</p>
+        <p>801</p>
+        <p>Antonio Jose Uribe IED.</p>
+        <p>2024</p>
+      </footer>
+    </div>
+  </body>
+</html>

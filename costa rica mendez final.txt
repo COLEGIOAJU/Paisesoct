@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>COSTA RICA</title>
+</head>
+<body>
+<div>
+    <button onclick="mostrarContenido('pestaña1')">Informacion</button>
+    <button onclick="mostrarContenido('pestaña2')">Caracteristicas</button>
+    <button onclick="mostrarContenido('pestaña3')">Turismo</button>
+    <button onclick="mostrarContenido('pestaña4')">Abstract</button>
+</div>
+<div id="pestaña1">
+    <h1><p style="font-family: Calibri; font-size: 80px;">COSTA RICA PAIS DE LA BIODIVERSIDAD</p></h1>
+    <p>Costa Rica es uno de los 25 países megadiversos en el mundo y uno de los 20 países con la más alta diversidad de especies expresada en números totales.</p>
+    <img src="costa rica bandera.JPG" alt="COSTA RICA">
+    <h2><p style="color: red;">BANDERA</p></h2>
+    <img src="\Users\DOCENTE\Documents\COSTA RICA (DAYHANA DAZA ).JPG" alt="BANDERA DE COSTA RICA">
+    <h3><p style="color: red;">CAPITAL</p></h3>
+    <p>La capital de Costa Rica queda ubicada en el Valle Central de Costa Rica, conocida como:<br><img src="mapa-costa-rica.png" alt="SAN JOSE">San José</p>
+</div>
+
+<div style="background-color: #3498DB;">
+    <h4><p style="color: blue;">PRESIDENTE ACTUAL</p></h4>
+    <p style="font-family: Arial; font-size: 18px;">El presidente actual es Robles Chaves, durante su discurso de posesión. El 8 de mayo de 2022, el presidente saliente Carlos Alvarado Quesada dio la banda presidencial a Rodrigo Chaves, dando inicio a la Presidencia del mismo.</p>
+    <img src="Rodrigo_Chaves,_discurso_posesión_(cropped).JPG" alt="PRESIDENTE DE COSTA RICA">
+</div>
+
+<div style="background-color: #E8DAEF;">
+    <h5><p style="color: green;">LIMITES DE COSTA RICA</p></h5>
+    <p style="font-family: Times New Roman; font-size: 16px;">Costa Rica presenta los siguientes límites:<br>
+        Al norte Nicaragua<br>
+        Al sur Panamá<br>
+        Al este mar Caribe<br>
+        Al oeste océano Pacífico.</p>
+    <img src="mapa-costa-rica-.png" alt="LIMITES DE COSTA RICA">
+</div>
+
+<div id="pestaña2">
+    <h6><p style="color:red;">ACTIVIDAD ECONOMICA</p></h6>
+    <p>La economía costarricense es la décima segunda economía de Latinoamérica en términos de Producto Interno Bruto (PIB) nominal, cuyos ejes principales son la agricultura, el turismo y las ventas externas de servicios y equipos electrónicos.</p>
+
+    <div style="background-color: #3498DB;">
+        <h7><p style="color: blue;">POBLACION</p></h7>
+        <p style="font-family: Arial; font-size: 18px;">Costa Rica, con una población de 5.229.000 personas, se encuentra en la posición 122 de la tabla de población, compuesta por 196 países y tiene una densidad de población de 102 habitantes por km².</p>
+    </div>
+
+    <div style="background-color: #E8DAEF;">
+        <h8><p style="color: green;">CULTURA</p></h8>
+        <p style="font-family: Times New Roman; font-size: 16px;">La cultura de Costa Rica posee matices indígenas, europeos, afrocaribeños y asiáticos, como también tiene una gran influencia española, su idioma es el español. Es un país mestizo y multiétnico.</p>
+    </div>
+</div>
+
+<div id="pestaña3">
+    <table border="1">
+        <tr>
+            <th></th>
+            <th>TOUR 1</th>
+            <th>TOUR 2</th>
+            <th>TOUR 3</th>
+            <th>TOUR 4</th>
+            <th>TOUR 5</th>
+        </tr>
+        <tr>
+            <td>LUGAR</td>
+            <td>Catarata La Fortuna</td>
+            <td>Parque Nacional Volcán Poás</td>
+            <td>Playa Manuel Antonio</td>
+            <td>Teatro Nacional de Costa Rica</td>
+            <td>Tortuguero</td>
+        </tr>
+        <tr>
+            <td>UBICACIÓN</td>
+            <td>Provincia de Alajuela</td>
+            <td>Provincia de Alajuela, Poás, Costa Rica</td>
+            <td>Provincia de Puntarenas, Quepos, Costa Rica</td>
+            <td>Cuesta de Moras, Av. Central, San José, Bella Vista, 10101, Costa Rica</td>
+            <td>Limón, Costa Rica</td>
+        </tr>
+        <tr>
+            <td>ACTIVIDADES PARA HACER</td>
+            <td>1. Tour de cascadas, volcán Arenal y aguas termales 2. Tour del chocolate de la Selva Tropical 3. Tour de puentes colgantes, volcán Arenal y cataratas</td>
+            <td>1. Visitar un volcán activo 2. Rafting en el río Sarapiquí 3. Los Jardines de las Cataratas 4. Paseos a caballo 5. Tours a granjas y fincas cafetaleras 6. Observación de aves y caminatas</td>
+            <td>1. Tour en barco por los manglares Isla Damas | Manuel Antonio 2. Tour de vida silvestre en el Parque Nacional Manuel Antonio 3. Excursión de vela en Manuel Antonio</td>
+            <td>1. Su visita 2. Exposiciones temporales 3. Exposiciones permanentes 4. Servicios educativos
+y culturales 5. Tienda del Museo 6. Noticias 7. Programación.</td>
+<td>1. Recorridos por parajes naturales 2. Visitas guiadas ecológicas 3. Recorridos en barco 4. Recorridos en kayak y canoa 5. Acampadas y senderismo guiados 6. Tours y chárteres de pesca 7. Recorridos con motora 8. Safaris.</td>
+</tr>
+<tr>
+<td>FOTOS</td>
+<td><img src="C:\Users\DOCENTE\Documents\COSTA RICA (DAYHANA DAZA ).JPG" alt="CATARATA LA FORTUNA"></td>
+<td><img src="C:\Users\DOCENTE\Documents\COSTA RICA (DAYHANA DAZA ).JPG" alt="PARQUE NACIONAL VOLCAN POAS"></td>
+<td><img src="download playa.jpg" alt="PLAYA MANUEL ANTONIO"></td>
+<td><img src="download museo.jpg" alt="MUSEO NACIONAL"></td>
+<td><img src="cartago-costa-rica-07-2022-260nw-2180153135..webp" alt="TORTUGUERO"></td>
+</tr>
+<tr>
+<td>COSTOS DE VISITAS</td>
+<td>54.120 Peso colombiano</td>
+<td>15 dólares para visitantes internacionales y ¢1000 para visitantes nacionales.</td>
+<td>73.00 por persona.</td>
+<td>40.00 para público general.</td>
+<td>951.00 Peso colombiano</td>
+</tr>
+<tr>
+<td>MEDIOS DE TRANSPORTE</td>
+<td>En taxi. También hay tours en cuadraciclo y a caballo.</td>
+<td>Se puede llegar en bus.</td>
+<td>Mediante bus, minivan, car.</td>
+<td>Se puede llegar en taxi.</td>
+<td>A través del curso de los ríos y lagunas en botes.</td>
+</tr>
+<tr>
+<td>COSTO TOTAL</td>
+<td>800.000</td>
+<td>850.000</td>
+<td>183.000</td>
+<td>120.000</td>
+<td>1.033.000</td>
+</tr>
+</table>
+
+</div>
+<div id="pestaña4">
+    <h6><p style="color:red;">Abstract ingles - Costa Rica</p></h6>
+    <p>Costa Rica, officially the Republic of Costa Rica, is a sovereign state organized as a unitary presidential republic composed of 7 provinces. Located in Central America, it has a territory with a total area of 51,179 km². Costa Rica is a small country, but rich for its people, its level of education, its learning capacity, and its specialization.</p>
+    <footer>
+        <p>Criss Dayhana Mendez Daza 801 Antonio Jose Uribe 2024</p>
+    </footer>
+</div>
+<script>
+    window.onload = function() {
+        var contenidos = document.querySelectorAll('div[id^="pestaña"]');
+        for (var i = 0; i < contenidos.length; i++) {
+            contenidos[i].style.display = 'none';
+        }
+    };
+
+    function mostrarContenido(id) {
+        var contenidos = document.querySelectorAll('div[id^="pestaña"]');
+        for (var i = 0; i < contenidos.length; i++) {
+            contenidos[i].style.display = 'none';
+        }
+        var contenidoSeleccionado = document.getElementById(id);
+        contenidoSeleccionado.style.display = 'block';
+    }
+</script>
+</body>
+</html>

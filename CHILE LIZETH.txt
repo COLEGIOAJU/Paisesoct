@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> CHILE</title>   
+	</head>
+	<body>
+<div>
+     <button onclick="mostrarContenido('pestaña1')">Identificacion</button>
+     <button onclick="mostrarContenido('pestaña2')">Caracteristicas</button>
+     <button onclick="mostrarContenido('pestaña3')">Tour</button>
+</div>
+<div id="pestaña1">
+  
+	<h1> <p style="font-family: Calibri; style="font-size: 80px;"> CHILE PAIS DE LA DIVERSIDAD</p> </h1>
+	<h1> <img src="C:\Users\Estudiante\Downloads\chile lizeth camacho\bandera chile.jpg"alt="bandera chile">					
+<div style="background-color: #f0f0f0;"> 
+<! Este es un comentario que no se mostrará en la página web >
+<!Notese que el color solo se aplica a lo que esta debajo de la orden>
+	<h2> <p style="color: dark blue;"p>  CAPITAL </h2>
+	<p> la capital y la ciudad más grande de Chile, se ubica en un valle rodeado de cimas nevadas de los Andes y la Cordillera de la Costa chilena <br>
+	 <br> </p>
+</div style>
+
+   <div style="background-color: #3498DB;"> 
+	<h3> <p style="color: red;"> PRESIDENTE ACTUAL </h3>
+	<p style="font-family: Arial; style="font-size: 18px;"> El actual mandatario es Gabriel Boric Font, quien asumió el cargo el 11 de marzo de 2022 </p>
+</div style>
+	
+ <div style="background-color: #E8DAEF;"> 
+	<h3> <p style="color: green;">LIMITES DE CHILE</h4>
+	<p style="font-family: Times New Roman; style="font-size: 16px;> Chile presenta los siguientes limites:<br>
+	 <br>   El país limita al Norte con Perú
+         <br>   Al Este con Bolivia y Argentina
+         <br>   Al Oeste con el Océano Pacífico 
+         <br>   Al Sur con el mismo Océano y el Territorio Antártico.
+
+         <h1> <img src=C:\Users\Estudiante\Downloads\CHILE lizeth camacho\limites chile.jpg"alt=chile limites">
+</div>
+<div id="pestaña2">
+</p>
+</div style>
+	</body>
+</html> ACTIVIDAD ECONOMICA
+    
+       <br>  Chile es uno de los países más industrializados de América Latina, y algunos de sus sectores de actividad clave incluyen la minería (cobre, carbón y nitrato), los productos manufacturados (procesamiento de alimentos, productos químicos, madera) y la agricultura (pesca, viticultura y fruta). </br>
+
+</p>
+</div style>
+
+<h1>        
+  <html> POBLACION 
+
+<h2>
+<br> Sus resultados indican que la población efectivamente censada llegó a un total de 17.574.003 personas. De ellas, 8.601.989 (48,9%) son hombres y 8.972.014 (51,1%), mujeres,Chile, con una población de 19.493.184 personas, se encuentra en la posición 64 de la tabla de población, compuesta por 196 países y presenta una moderada densidad de población, 26 habitantes por Km2.La cultura chilena es una interesante mezcla de elementas indígenas, en particular mapuches, y la influencia del colonialismo español (reflejada en la lengua hablada y las costumbres católicas). El gran número de emigrantes europeos también ha causado un profundo efecto en la sociedad chilena, que se considera relativamente homogénea en comparación con la de otros países de Hispanoamérica
+</html>
+
+<h1>
+<html>CULTURA
+
+<h2>
+<br>La cultura chilena  se expresa en una amplia variedad de medios, como la boyante industria cinematográfica. Pintores como Roberto Matta y Carlos Sotomayor, han dado fama al arte chileno. La literatura chilena cuenta con varios premios Nobel, como Pablo Neruda y Gabriela Mistral, que han impulsado el peregrinaje literario a Chile, así como la superventas internacional Isabel Allende. El baile nacional es la cueca, que surgió en 1824. La música es muy importante para los chilenos: como durante los 70 cualquier tipo de oposición contra la junta militar estaba ilegalizada, la canción protesta comenzó a circular clandestinamente. Actualmente, la música folklórica está experimentando un resurgimiento en la cultura chilena.
+
+7 comidas Típicas Chilenas Imperdibles en estas Fiestas Patrias 2023
+Empanadas. Las empanadas son una auténtica joya de la gastronomía chilena y un imprescindible en las Fiestas Patrias. ...
+Asado.
+Humitas. 
+Pastel de Choclo. 
+Mote con Huesillo. 
+Sopaipillas.
+Curanto.
+    </div>
+<div id="pestaña3">
+    <h10><p style=font-family:Bernard MT Condensed;style="font size: 50px;">turismo</h10>
+    <p style  espacio{magin_botton:10px;}></p>
+
+<table border="1">
+<tr>
+<th></th>
+<th>Parque Nacional Torres del Paine</th>
+<th>Desierto de Atacama</th>
+<th>Isla de Pascua</th>
+<th>Valle Nevado</th>
+<th>La Chascona</th>
+</tr>
+<tr>
+<td> UBICACION </td>
+<td>Región de Magallanes y Antártica Chilena, comuna de Torres del Payne, provincia de Última Esperanza.</td> 
+<td>en la región Antofagasta, al norte del país, limitando con Bolivia y Argentina.</td>
+<td>es una isla ubicada en el Océano Pacífico Sur, sobre el extremo más oriental de la Polinesia.</td>
+<td>esta ubicado en la comuna de Lo Barnechea.</td>
+<td>Se encuentra ubicada en el Barrio Bellavista de la comuna de Providencia en Santiago de Chile.</td>
+</tr>
+<tr>
+<td>ACTIVIDAD PARA HACER</td>
+<td>Asciende al mirador Torres del Paine,Navega cerca del Glaciar Grey,Practica rápel y barranquismo, Conoce la vida silvestre</td>
+<td>Visitar Piedras Rojas,Visitar las lagunas Miscanti y Miñiques, Visitar la Laguna escondida de Baltinache</td>
+<td>Visitar el lugar donde comenzó el misticismo, Rano Raraku, Hacer trekking hasta el cráter del volcán Rano Kau, Recorre la isla en una scooter o en una moto,Bucear con tortugas marinas</td>
+<td>Cordillera de los Andes: Sunset y Vista Panorámica,Tour de Día Completo a Valle Nevado y Farellones Panorámico,Excursión privada: Valle Nevado y Farellones desde Santiago, Ski Day Valle Nevado.</td>
+<td>podrás disfrutar de una visita con audioguía por la casa, te mostrara recuerdos que Neruda coleccionó a lo largo de su vida. Además, tendrás la oportunidad de conocer más sobre su vida personal y su trayectoria como escritor</td>
+</tr>
+<tr>
+<td>COSTO DE VISITA AL SITIO</td>
+<td>Tiempo de estadía:3 dias; 12 años y 60 años y personas con discapacidad $9.000 / us $10,00;  18 años hasta 59 años $13.000 / us$14,00.
+un vuelo desde santiago de chile cuesta 0,098 USD (89,79 pesos chilenos)
+restaurante: los platos varian desde 0,0038 USD (3,52 pesos chilenos) en adelante
+hoteles:un solo huesped por cuatro noches vale alrededor de 0,80 USD (737,38) pesos chilenos<td>
+<td>Los precios pueden oscilar desde aproximadamente 19,99 USD (18348,00 pesos chilenos) por noche en un hostal hasta varios cientos de dólares por noche en un hotel de lujo, Una comida en un restaurante promedio podría costar entre 9,99 USD (9174,00) y 19,99 USD (18348,00 pesos chilenos) por persona; el costo de un vuelo de ida y vuelta desde Santiago de Chile puede oscilar entre los $100 USD (91740,00 pesos chilenos) y los $300 USD (275220,00)</td>
+<td>puedes esperar que los vuelos de ida y vuelta oscilen entre los $400 USD (367164,00 pesos chilenos) y los $1000 USD (917910,00 pesos chilenos) o más; Los precios de los restaurantes varían una comida en un restaurante puede costar entre $15 USD (13768,65) y $30 USD (27537,30) por persona;puedes esperar gastar entre $50 USD y $200 USD por noche en alojamiento
+
+
+   	                                                           
+
+
+</table border>
+
+
+
+<footer>
+<p> PAGINA HECHA POR:Lizeth Sofia Camacho Santamaria 
+<p> COLEGIO: Antonio Jose Uribe 
+<p> CURSO: 802
+2024
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+   
+
+     

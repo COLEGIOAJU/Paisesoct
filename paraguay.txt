@@ -1,0 +1,62 @@
+﻿ <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PARAGUAY</title>
+</head>
+<body>
+    <div>
+        <button onclick="mostrarContenido('pestaña1')">Mostrar Pestaña 1</button>
+    </div>
+
+    <h1><p style="font-family: calibri; font-size: 80px; color: blue;">Paraguay</p></h1>
+    <div style="background-color: pink;">
+
+    <h2><p style="color: white;">CAPITAL DE PARAGUAY</p></h2>
+    <p>Ciudad de la Asunción (fundada como Nuestra Señora de la Asunción) es la capital y ciudad más poblada del Paraguay, ubicada en el centro-oeste de la Región Oriental. Es un municipio de primer orden administrada como distrito capital.</p>
+
+    <p style="color: violet;"><h3>PRESIDENTE ACTUAL</h3></p>
+    <p>Santiago Peña Palacios es un economista y político paraguayo, que es el 51er° y actual presidente de la República del Paraguay desde el 15 de agosto de 2023.</p>
+
+    <h4 style="color: red;">LÍMITES CON MAPA DEL PARAGUAY</h4>
+    <p style="color: red;">Con la Argentina (al Sur y al Oeste):</p>
+    <ul>
+        <li>1.345 km de límites fluviales</li>
+        <li>345 Km de límites terrestres</li>
+        <li>Total: 1.690 Km de extensión.</li>
+    </ul>
+    <p>Con Bolivia (al Norte y al Oeste):</p>
+    <ul>
+        <li>38 Km de límites fluviales</li>
+        <li>704 Km de terrestres</li>
+        <li>Total: 742 Km de extensión.</li>
+    </ul>
+    <p>Con el Brasil (al Este y al Norte):</p>
+    <ul>
+        <li>929 Km de límites fluviales</li>
+        <li>438 Km de terrestres</li>
+        <li>Total: 1.367 Km de extensión.</li>
+    </ul>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Paraguay_rel98.jpg/800px-Paraguay_rel98.jpg" alt="Mapa de los límites del Paraguay" />
+
+    <h5 style="color: blue;">ACTIVIDAD ECONÓMICA DEL PARAGUAY</h5>
+    <p>Se caracteriza por la predominancia de los sectores de servicios, industriales y agroganaderos:</p>
+    <ul>
+        <li>El sector industrial paraguayo se encuentra medianamente desarrollado, y se basa principalmente en el procesamiento de materias primas agrícolas y ganaderas. Es uno de los más grandes exportadores de azúcar (1º), carne vacuna (8º) y soja (4º).</li>
+        <li>El sector agrícola ha experimentado un desarrollo significativo, con la soja tomando un papel preponderante en la economía del país, transformándose en el principal producto de la agricultura mecanizada paraguaya y en el principal generador de divisas para el país.</li>
+    </ul>
+
+    <h6 style="color: green;">CULTURA DE PARAGUAY</h6>
+    <!-- Puedes completar esta sección con información sobre la cultura de Paraguay -->
+</div>
+</body>
+</html>
+
+
+
+
+      
+
+
+   

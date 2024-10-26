@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CUBA</title>
+</head>
+<body>
+    <div>
+        <button onclick="mostrarContenido('pestaña1')">INFORMACIÓN</button>
+        <button onclick="mostrarContenido('pestaña2')">CARACTERISTICAS</button>
+        <button onclick="mostrarContenido('pestaña3')">TURISMO</button>
+    </div>
+    <div id="pestaña1">
+        <h1><p style="font-family: calibri; font-size: 65px;">CUBA</p></h1>
+        <p>Cuba, oficialmente República de Cuba, es un país soberano insular, asentado en las Antillas del mar Caribe. El territorio está organizado en quince provincias y un municipio especial con La Habana como capital y ciudad más poblada.</p>
+        <img src="cuba bandera.jpg" alt="mapa de cuba">
+<img src="cuba mapa.jpg" alt="mapa de cuba">
+    </div>
+
+    <div id="pestaña2">
+        <div style="background-color: #E74C3C;">
+            <h2 style="color: blue;">CAPITAL</h2>
+            <p>La Habana es la capital de Cuba. La arquitectura colonial española en el centro de la Habana Vieja del siglo XVI incluye el Castillo de la Fuerza Real, un fuerte y un museo marítimo.</p>
+            <img src="La-Habana-mapa-por-barrios-y-municipios-2.png" alt="mapa de la habana">
+        </div>
+        <div style="background-color:#F4D03F ;">
+            <h3 style="color: red;">PRESIDENTE ACTUAL</h3>
+            <p>Miguel Mario Díaz-Canel Bermúdez es un ingeniero electrónico y político cubano. Desde el 10 de octubre de 2019 es el presidente de la República de Cuba y desde 2021 se desempeña como primer secretario del Partido Comunista de Cuba. Es el primer mandatario de la isla en nacer después de la Revolución cubana.</p>
+        </div>
+        <div style="background-color: #CACFD2;"> 
+            <h4 style="color: red;">LIMITES EN EL MAPA</h4>
+            <p>al norte se encuentran los Estados Unidos y Bahamas, al oeste México, al sur las Islas Caimán y Jamaica, y al este la isla La Española.</p>
+        </div>
+        <div style="background-color:#5DADE2;">
+            <h5 style="color: red;">ACTIVIDAD ECONOMICA</h5>
+            <p>Las actividades agrícolas en la isla componen el 4% del PIB, mientras que la industria llega al 22,7% y los servicios al 73,4%, según datos de 2017 del CIA World Factbook. Las restricciones impuestas en el contexto de la pandemia de coronavirus golpearon duro en la isla.</p>
+        </div>
+    </div>
+
+    <div id="pestaña3">
+        <div style="background-color: #D7DBDD;">
+            <h6 style="color: red;">TURISMO</h6>
+            <p>Los toures o viajes que nadie se puede perder en Cuba son:</p>
+            <table border="2">
+                <tr>
+                    <th></th>
+                    <th>TOUR 1</th>
+                    <th>TOUR 2</th>
+                    <th>TOUR 3</th>
+                    <th>TOUR 4</th>
+                    <th>TOUR 5</th>
+                </tr>
+                <tr>
+                    <td>LUGAR</td>
+                    <td>VIÑALES</td>
+                    <td>PLAYA PILARES</td>
+                    <td>PLAZA DE LA CATEDRAL</td>
+                    <td>FABRICA DE ARTE CUBANO</td>
+                    <td>PLAYA SIRENA</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+<script>
+// oculta todo el contenido de las pestañas al cargar la página
+window.onload = function() {
+    var contenidos = document.querySelectorAll('div[id^="pestaña"]');
+    for (var i = 0; i < contenidos.length; i++) {
+        contenidos[i].style.display = 'none';
+    }
+    // Muestra la imagen solo en la primera pestaña 
+    document.querySelector('.imagen').style.display = 'block';
+};
+
+function mostrarContenido(id) {
+    // Oculta todos los elementos con la clase "contenido"
+    var contenidos = document.querySelectorAll('div[id^="pestaña"]');
+    for (var i = 0; i < contenidos.length; i++) {
+        contenidos[i].style.display = 'none';
+    }
+    // Muestra el contenido de la pestaña seleccionada
+    var contenidoSeleccionado = document.getElementById(id);
+    contenidoSeleccionado.style.display = 'block';
+}
+</script>
+
+<footer>                                     
+    <p> pagina creada por: MOISES GONZALEZ RONDON</p>
+    <p> Colegio: Antonio Jose Uribe </p> 
+    <p> Curso: 802 </p>
+    <p> Año: 2024 </p>
+</footer>
+                                                         
+</body>
+</html>

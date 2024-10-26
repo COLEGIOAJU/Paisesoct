@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CUBA</title>
+</head>
+<body>
+    <div>
+        <button onclick="mostrarContenido('pestaña1')">INFORMACIÓN</button>
+        <button onclick="mostrarContenido('pestaña2')">CARACTERISTICAS</button> 
+        <button onclick="mostrarContenido('pestaña3')">TURISMO</button>
+    </div>
+
+    <div id="pestaña1">
+        <h1 style="font-family: calibri; font-size: 65px;">CUBA</h1>
+        <p>Cuba, oficialmente República de Cuba, es un país soberano insular, asentado en las Antillas del mar Caribe. El territorio está organizado en quince provincias y un municipio especial con La Habana como capital y ciudad más poblada.</p>
+        <div style="background-color:#F4D03F;">
+            <h4 style="color:red;">PRESIDENTE ACTUAL</h4>
+            <p>Miguel Mario Díaz-Canel Bermúdez es un ingeniero electrónico y político cubano. Desde el 10 de octubre de 2019 es el presidente de la República de Cuba y desde 2021 se desempeña como primer secretario del Partido Comunista de Cuba. Es el primer mandatario de la isla en nacer después de la Revolución cubana.</p>
+        </div>
+        <div style="background-color: #CACFD2;">
+            <h5 style="color:red;">LÍMITES EN EL MAPA</h5>
+            <p>Al norte se encuentran los Estados Unidos y Bahamas, al oeste México, al sur las Islas Caimán y Jamaica, y al este la isla La Española.</p>
+        </div>
+        <div style="background-color:#5DADE2;">
+            <h6 style="color:red;">ACTIVIDAD ECONÓMICA</h6>
+            <p>Las actividades agrícolas en la isla componen el 4% del PIB, mientras que la industria llega al 22,7% y los servicios al 73,4%, según datos de 2017 del CIA World Factbook. Las restricciones impuestas en el contexto de la pandemia de coronavirus golpearon duro en la isla.</p>
+        </div>
+    </div>
+
+    <div id="pestaña2">
+        <div style="background-color: #E74C3C;">
+            <h4 style="color:blue;">CAPITAL</h4>
+            <p>La Habana es la capital de Cuba. La arquitectura colonial española en el centro de la Habana Vieja del siglo XVI incluye el Castillo de la Fuerza Real, un fuerte y un museo marítimo. <img src="C:\Users\Estudiante\Documents\CUBA_MOISES.png" alt="mapa de la habana"></p>
+        </div>
+    </div>
+    <div style="background-color: #CACFD2;">
+       <h5 style="color:red;">ABSTRACT OF CUBA</h5>
+      
+      <H5> Cuba, a captivating island nation nestled in the heart of the Caribbean Sea, boasts a rich tapestry of history, culture, and natural beauty. This paper provides an overview of Cuba, delving into its historical background, cultural influences, economic landscape, tourism industry, political system, and more. From its tumultuous colonial past under Spanish rule to its revolutionary transformation in the 20th century, Cuba's history is a saga of resilience, defiance, and determination. Its unique blend of Spanish, African, and indigenous cultures manifests in vibrant music, dance, cuisine, and art, captivating visitors from around the globe. Despite economic challenges and political controversies, Cuba remains an enchanting destination, beckoning travelers with its pristine beaches, colonial architecture, and lively streets. This abstract serves as a gateway to understanding the multifaceted allure of Cuba, inviting further exploration into its past, present, and future. </H12>
+      
+    <div id="pestaña3">
+        <div style="background-color: #D7DBDD;">
+            <p>Los tours o viajes que nadie se puede perder en Cuba son:</p>
+            <table border="2">
+                <tr>
+                    <th>TOUR</th>
+                    <th>NOMBRE DEL LUGAR</th>
+                    <th>UBICACIÓN</th>
+                    <th>COSTO</th>
+                    <th>ACTIVIDAD PARA DESARROLLAR</th>
+                    <th>MEDIO DE TRANSPORTE PARA LLEGAR</th>
+                    <th>COSTO TOTAL DEL TOUR</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>VIÑALES</td>
+                    <td>Viñales es un municipio cubano de la provincia de Pinar del Río.</td>
+                    <td>75,96 USD</td>
+                    <td>Cuevas de Santo Tomas, Palenque de los Cimarrones.</td>
+                    <td>El transporte de La Habana a Viñales es en autobús.</td>
+                    <td>Entre 500 y 1500 USD por persona.</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>PLAYA PILARES</td>
+                    <td>Ubicada en Cayo Guillermo, uno de los cayos de la provincia cubana Ciego de Ávila.</td>
+                    <td>50 USD por persona.</td>
+                    <td>Nadar, mirar actividades acuáticas, etc.</td>
+                    <td>En bote.</td>
+                    <td>Aproximadamente entre $1000 y $3000 USD por persona.</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>CATEDRAL DE LA HABANA</td>
+                    <td>PLAZA DE LA CATEDRAL, LA HABANA.</td>
+                    <td>La entrada es gratuita.</td>
+                    <td>Rezar y confesarse.</td>
+                    <td>Taxi.</td>
+                    <td>El costo es totalmente gratuito.</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>FABRICA DE ARTE CUBANO</td>
+                    <td>Es una pequeña isla cubana situada en el mar Caribe.</td>
+                    <td>La entrada cuesta 250 CUP (2,08€)</td>
+                    <td>Contemplar las obras artísticas de Cuba.</td>
+                    <td>En taxi o caminando.</td>
+                    <td>Aproximadamente 100 USD, depende de la comida.</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>CAYO LARGO DEL SUR</td>
+                    <td>Cayo Largo del Sur, conocido simplemente como Cayo Largo, es una pequeña isla cubana situada en el mar Caribe, en el extremo oriental del Archipiélago de los Canarreos. </td>
+                    <td>Desde $316.</td>
+                    <td>Tomar el sol.</td>
+                    <td>En avión.</td>
+                    <td>Podrías presupuestar entre $1000 y $3000 USD por persona para una estadía de una semana.</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+     
+
+   <footer>
+    <p> MOISES MONTILLA
+         801
+      ANTONIO JOSE URIBE A.J.U   </P>
+         2024
+        </footer> 
+      
+       <script>
+        function mostrarContenido(pestaña) {
+            var i;
+            var contenido = document.getElementsByTagName("div");
+            for (i = 0; i < contenido.length; i++) {
+                if (contenido[i].id === pestaña) {
+                    contenido[i].style.display = "block";
+                } else {
+                    contenido[i].style.display = "none";
+                }
+            }
+        }
+    </script>
+         
+</body>
+</html>

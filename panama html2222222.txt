@@ -1,0 +1,128 @@
+<!DOCTYPE html><html>    
+	<head>
+  
+		<title>PANAMA</title>   
+	</head>
+	<body>
+    <div>
+      <button onclik ="mostrar contenido('pestaña1')">informacion de panama        </button>
+                                                         <div>
+                                                                              <button onclik =mostrar contenido('pestaña'2)">caeacteristicas depanama</button>
+                                                      <div>                                                  <button onclik ="mostrar contenido('pestaña3')"> tours</button>
+             </div id="pestaña3"> </button></div> 
+  
+  <div>
+    <button onclik ="mostrar contenido(´pestaña4)">ABSTRACT OF PANAMA</button>
+                     </div>       
+  
+  
+  <h1>panama pais de muchos arboles</h1>
+  <img
+  
+  sr=C:\Users\Estudiante\Documents\luz panama
+  
+	<h1> <p style="font-family: Calibri; style="font-size: 80px;"> PANAMA </p>  </p> </h1>	
+<div style="background-color: #f0f0f0;"> 
+      
+   sr=   
+      
+	<h2><p style="color: red;">  CAPITAL </h2>
+	<p>Ciudad de Panamá, la capital de Panamá, es una ciudad moderna enmarcada por el océano Pacífico y el Canal de Panamá artificial. El Casco Viejo, su centro histórico con adoquines, es famoso por sus sitios de la época colonial, como el Palacio Presidencial neoclásico y las plazas llenas de buganvilias con cafés y bares. Desde las Esclusas de Miraflores se pueden ver las naves que cruzan el canal, una ruta comercial esencial que une el Atlántico y el Pacífico.<br>
+      
+	 
+
+   <div style="background-color: #3498DB;"> 
+	<h3> <p style="color: blue;"> PRESIDENTE ACTUAL </h3>
+	<p style="font-family: Arial; style="font-size: 18px;"> El presidente acualmente de panama es Laurentino Cortizo  </p>
+</div style> (pestaña2")
+	
+ <div style="background-color: #E8DAEF;"> 
+	<h4> <p style="color: green;">LIMITES DE COLOMBIA</h4>
+	<p style="font-family: Times New Roman; style="font-size: 16px;> Colombia presenta los siguientes 	limites: <br> 
+        al sur con el atlantico <br>
+ 	Al sur con el pacifico <br>
+	Al noroeste con cplombia<br> 
+        al oeste con costa rica .</p>
+</div style>
+	</body>
+</html> 
+         <h5>ACTIVIDAD ECON0MICA <h5>
+       
+<p>es una de las más estables de América. Entre las principales actividades se encuentran los servicios financieros, turísticos y logísticos,  La economía panameña es la décima economía de América Latina en términos de PIB nominal,20​ (por encima de Costa Rica y antes que Ecuador) 
+  <h6> <p style="color:white;">LOS TOURS DE PANAMA
+ <P> CUANTO CUESTA UN TOUR DE PANAMA:
+  Una actividad en Panamá tiene un precio desde $80510 hasta $2002001. Utiliza los filtros para seleccionar el rango de precios que se adapten a tu viaje. </p>
+
+ <h7> <p style="color:blue;">CULTURA DE PANAMA:
+   
+   
+   La cultura de Panamá es el resultado de la fusión de diversas culturas que se han asentado en el país durante su historia: españoles, afro-antillanos, árabes, judíos, estadounidenses, chinos, etc. Esta combinación se observa en su vida, en su música, en la gastronomía y en el arte.
+
+En la indumentaria tradicional se destaca las mola, un proceso de inverso al tejido y que es confeccionado por la etnia indígena guna. También se destaca la pollera panameña, que es producto de la herencia española y considerado como traje folklórico de Panamá. La influencia española está presente en la arquitectura de las ciudades coloniales, en especial el Casco Antiguo de Panamá y en las provincias centrales del país</p>
+   
+<h8>  <p style="color blue;">POBLACION DE PANAMA:
+
+Panamá, con una población de poco más de 4 millones de habitantes, se encuentra en medio de un proceso electoral para elegir al nuevo presidente de la República el 5 de mayo. Desde 2021, Panamá ha consolidado su posición como uno de los primeros países carbono negativo </P>
+  
+<h9>  <p style="color pink;"> ABSTRACT
+ 
+  
+   Panama is a sovereign country of America that is located in the southeastern corner of Central America, which is also its subdivision. Its official name is the Republic of Panama and its capital is Panama City. The republic is made up of ten provinces and six indigenous regions.
+
+       
+
+ </div>
+    <div id="pestaña3">
+   <table border="1">
+   <tr>
+     <th>
+     <th>el Casco antiguo</th>
+     <th>biomuseo </th>
+     <th>esclusas de miraflores </th>
+     <th>calzado de armador </th>
+     <th>canal de panama </th>
+     </tr>
+     <tr>
+       <td> ubicacion </td>
+         <td>queda ubicado en san felipe</td>
+         <td>El Biomuseo está ubicado en la Calzada Armado</td>
+         <td> queda ubicado en Panamá, Provincia Panamá</td>
+         <td> queda ubicado en ciudad de panama</td>
+         <td> pues en si queda ubicado en el oceano atlantico y pasifico y los paises mas sercas  son los siguientes:
+Estados Unidos.
+China.
+Japón.
+Chile.
+Corea del Sur.
+México.
+Colombia</td>
+       
+       <td>
+         </tr>
+         <td> actividadades para hacer </td>
+         <td> actividades para hacerAdéntrate en el encantador mundo del Casco Viejo de Ciudad de Panamá con un guía local apasionado por compartir las historias, la historia y la cultura de esta vibrante parte de la ciudad. Nuestro recorrido a pie "Leyendas del Casco Viejo" te lleva en un viaje en el tiempo, en el que descubrirás las joyas ocultas, la impresionante arquitectura y los auténticos rincones locales que sólo los lugareños conocen. Nuestro experto guía te cautivará con fascinantes historias de amor, gloria y fortuna, así como historias de intriga, guerra y conflicto que han dado forma a esta extraordinaria zona. También recibirás consejos sobre los mejores lugares para comer, </td>
+       
+       <td> actividades para hacer Camina por nuestros jardines y aprende a identificar las aves de nuestra ciudad con la ayuda de los expertos de Audubon Panamá </td>
+       
+         <td> actividades para hacer La Vieja, Canal de Miraflores y Casco Viejo Visita Privada de la Ciudad
+Panamá: Recorrido por la ciudad en escala con un guía local
+Panamá: Lo más destacado del tour de la ciudad de Panamá
+Excursión de 3 horas al aeropuerto de Tocumen
+Una excursión por la Ciudad y el Canal de Panamá diferente, como ninguna otra.</td>
+       
+         <td> actividades para hacerDisfruta de uno de los más divertidos lugares al aire libre de Ciudad de Panamá. Esta vía marítima se construyó usando el material extraído durante las excavaciones del Canal de Panamá, entre 1904 y 1914. Se extiende 6 kilómetros hacia el océano Pacífico conectando tierra firme con las islas de Naos, Perico y Flamenco </td>
+       
+         <td> actividades para hacerSi buscas verdor y biodiversidad, entonces estás en el lugar indicado. La ciudad reúne varios parques naturales para hacer senderismo y avistar aves y vida silvestre. Las vistas de la ciudad desde el Parque Metropolitano, te van a dejar con la boca abierta. </td>
+         </tr>
+       
+       </table>
+     </boody>
+      </html>
+           <footer>
+             <p> NOMBRE:luz clarita
+               CURSO:801
+               COLEGIO:ANTONIO JOSE URIBE
+               AÑO:2024</P>
+    </footer>
+       
+  

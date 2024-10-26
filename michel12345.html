@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Peru</title>
+</head>
+<body>
+    <div>
+        <button onclick="mostrarContenido('pestaña1')">INFORMACION DEL PAIS</button>
+        <button onclick="mostrarContenido('pestaña2')">CARACTERISTICAS DEL PAIS</button>
+        <button onclick="mostrarContenido('pestaña3')">TOURES</button>
+    </div>
+    <div id="pestaña1">
+        <h1>imagen en HTML</h1>
+        <img src="data:image/png;base64,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" alt="bandera">
+        <h1 style="font-family: Calibri; font-size: 80px;">PERU</h1>
+        <div style="background-color: #f0f0f0;">
+            <!-- Este es un comentario que no se mostrará en la página web -->
+            <!-- Nótese que el color solo se aplica a lo que está debajo de la orden -->
+            <h2 style="color: red;">CAPITAL</h2>
+            <p>La capital de Perú ES:<br>
+                Lima <br>
+                La árida costa pacífica<br>
+                Una de las ciudades más grandes de Sudamérica <br>
+            </p>
+        </div>
+        <div style="background-color: #3498DB;">
+            <h3 style="color: blue;">PRESIDENTE ACTUAL</h3>
+            <p style="font-family: Arial; font-size: 18px;">Presidenta de la república desde el 7 de diciembre de 2022 es Dina Boluarte, quien asumió el cargo por sucesión presidencial. Quien ostente la presidencia ejerce sus funciones desde la Casa de Gobierno</p>
+        </div>
+        <div style="background-color: #E8DAEF;">
+            <h4 style="color: green;">LIMITES DE PERU</h4>
+            <p style="font-family: Times New Roman; font-size: 16px;">Limites de Perú:<br>
+                Limita por el norte con Ecuador y Colombia, al este con Brasil, al sureste con Bolivia y al sur con Chile.<br>
+                En cuanto a límites marítimos, colinda con Panamá, Costa Rica, Nicaragua, Honduras, Jamaica, Haití, República Dominicana y Venezuela en el Mar Caribe, y con Panamá, Costa Rica y Ecuador en el Océano Pacífico.
+            </p>
+        </div>
+        <h1>IMAGEN EN HTML</h1>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Dominio_Mar%C3%ADtimo_del_Per%C3%BA.svg/1200px-Dominio_Mar%C3%ADtimo_del_Per%C3%BA.svg.png" alt="mapa de limites">
+    </div>
+    <div id="pestaña2">
+        <h1>ACTIVIDAD ECONOMICA</h1>
+        <p>Producción Agrícola<br>
+        Producción Pecuaria<br>
+        Producción Pesquera<br>
+        Producción Forestal<br>
+        Comercio y Servicios<br>
+        Minería<br>
+        Turismo
+        </p>
+    </div>
+    <div id="pestaña3">
+        <table border="1">
+            <tr>
+                <th>MACHU PICCHU</th>
+                <th>CAÑON DE COLCA</th>
+                <th>LINEAS DE NAZCA</th>
+                <th>MUSEO LARCO</th>
+                <th>CHAN CHAN</th>
+            </tr>
+            <tr>
+                <td>Ubicación de Machu Picchu: Se ubica en la provincia de Urubamba, Región Cusco</td>
+                <td>Ubicación de Cañón del Colca: Ubicado dentro del Valle del Colca, el Cañón es uno de los mayores destinos turísticos no solo de Arequipa, sino también del Perú ubicada en el extremo noreste del departamento sureño, es una de las ocho divisiones que conforman la región de Arequipa.</td>
+                <td>Ubicación de Líneas de Nazca: 56 h (3.310,5 km) por Ctra. Panamericana S/Carretera 1S</td>
+                <td>Ubicación de Museo Larco: Frente al Parque Larco, Av. Simón Bolívar 1515 Ingreso por, Navarra 169, Pueblo Libre 15084, Perú</td>
+                <td>Ubicación de Chan Chan: Se ubica en la provincia de Trujillo, Región La Libertad. Fue la capital política, religiosa y administrativa del reino Chimor que dominó las etnias de toda la costa norte del Perú</td>
+            </tr>
+            <tr>
+                <td>Actividad para hacer en Machu Picchu: Tomar la mejor foto en la Casa del Guardián, Subir la montaña Huayna Picchu, El puente inca: la entrada secreta</td>
+                <td>Actividad para hacer en Cañón del Colca: Recorrer los pueblitos del Valle del Colca, El majestuoso vuelo del cóndor, Turismo vivencial en Coporaque, Baños termales de Chacapi, Tours de trekking</td>
+                <td>Actividad para hacer en Líneas de Nazca: Sobrevolar las líneas de Nazca, Observa las líneas desde el mirador, Cementerio de Chauchilla, Museo didáctico Antonini, Cahuachi, Acueductos de Cantalloc, Los Paredones, Museo Maria Reiche</td>
+                <td>Actividad para hacer en Museo Larco: Exposición de elementos históricos y culturales, Investigación, Difusión, Protección del patrimonio, Atracción del público</td>
+                <td>Actividad para hacer en Chan Chan: Uno de los templos más importantes de Chan Chan es el Templo del Dragón o del Arcoiris. Además, es uno de los templos mejor conservados y más importantes de Perú. Este templo fue construido en adobe y tenía un propósito religioso ya que se utilizaba para diversos rituales de la cultura Chimú</td>
+            </tr>
+            <tr>
+                <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBRrvqaL2YxeqXTvuls_FZegMZ5CtaHQvWYA&s" alt="Machu Picchu"></td>
+                <td><img src="https://images.ecestaticos.com/PO1TzmtBJkJeeUgvLETB1DN_oSg=/167x0:2179x1509/557x418/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fac8%2F4f6%2F53f%2Fac84f653f085bd69048673c082837a29.jpg" alt="Cañón del Colca"></td>
+                <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShWflNGWk9HS1l1niDbtQgNW_kqsd0YJq7qw&s" alt="Líneas de Nazca"></td>
+                <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2Ymx9mY1mPpPtTV-8pe8prK0sXNKlrqpYBQ&s" alt="Museo Larco"></td>
+                <td><img src="https://cdn.audleytravel.com/2796/1998/79/1017426-adobe-walls-chan-chan-chimu-culture-peru.jpg" alt="Chan Chan"></td>
+            </tr>
+            <tr>
+                <td>Costo de visita: Entrada Machu Picchu solo 2024: Extranjero - Adulto: 60 USD, Estudiante: 35 USD, Menores (de 3 a 17 años): 35 USD; Nacional (Perú, Colombia, Bolivia, Ecuador) - Adulto, Estudiante, Menores (de 3 a 17 años)</td>
+                <td>Costo de visita: La entrada para peruanos cuesta 20 soles y para niños, estudiantes y adulto mayor tiene un costo de 5 soles. Por otro lado, los visitantes latinoamericanos pagan 40 soles adultos y 20 niños, y para extranjeros de otras nacionalidades el precio es de 70 soles adultos y 20 soles niños</td>
+                <td>Costo de visita de Cañón del Colca: La entrada para peruanos cuesta 20 soles y para niños, estudiantes y adulto mayor tiene un costo de 5 soles. Por otro lado, los visitantes latinoamericanos pagan 40 soles adultos y 20 niños, y para extranjeros de otras nacionalidades el precio es de 70 soles adultos y 20 soles niños</td>
+                <td>Costo de visita de Museo Larco: Entrada general S/ 40.00, Adulto mayor (mayores de 60 años con identificación) S/ 30.00, Estudiantes (con identificación) S/ 20.00, Menores de edad (hasta 17 años, con identificación) S/ 20.00</td>
+                <td>Costo de visita de Chan Chan: El costo de las entradas es: adultos nacionales y extranjeros S/10; estudiantes de educación superior nacional o extranjero S/5; mayores de 60 años y militares en ejercicio S/5; y para estudiantes de educación escolar</td>
+            </tr>
+            <tr>
+                <td>Medio de transporte: Existen 3 formas de llegar a Machu Picchu. La más rápida y segura es por la ruta en tren. Además está la ruta alternativa por Hidroeléctrica (8 horas de viaje en bus) y el famoso Camino Inca (ruta de senderismo de 4 días)</td>
+                <td>Medio de transporte para el Cañón del Colca: Para llegar allí se debe tomar un transporte de servicio público hasta el pueblo de Chivay o el poblado de Cabanaconde, ambos pertenecientes a la provincia de Caylloma. Conoce paso a paso cómo ir a este increíble lugar y observar el cañón más profundo del mundo.</td>
+                <td>Medio de transporte de Líneas de Nazca: La forma tradicional de llegar a Nazca es en autobús desde las ciudades de Lima, Ica, Paracas, Cusco y Arequipa. Alternativamente en vuelos rentados desde Lima asociados a los sobrevuelos de las Líneas de Nazca y Líneas de Palpa, el aeropuerto de Nazca no tiene tráfico aéreo regular.</td>
+                <td>Medio de transporte para Museo Larco: Líneas de Autobús con las estaciones más cercanas a Av Larco en Miraflores</td>
+                <td>Medio de transporte para Chan Chan: Para llegar a Chan Chan debes ir a Trujillo. Desde Lima podrás encontrar boletos de bus a Trujillo por 75 soles ($22 USD) y toma alrededor de 10-12 horas llegar hasta allá. Desde Trujillo hay buses locales regulares que van a Huanchaco, un pueblo en la costa al lado de Trujillo que se debe visitar.</td>
+            </tr>
+            <tr>
+                <td>Costo total de Machu Picchu: Super Precio para Extranjeros 257 USD - 285 USD; Super Precio para Comunidad Andina 228 USD - 260 USD; Super Precio en servicio "Privado" 2Tickets de entrada al Cañón: Extranjeros S/. 70.00, Nacionales S/. 20.00, latinos S/. 40.00</td>
+                <td>Costo total de Cañón del Colca: Tickets de entrada al Cañón: Extranjeros S/. 70.00, Nacionales S/. 20.00, latinos S/. 40.00</td>
+                <td>Costo total de Líneas de Nazca: Tickets de entrada al Cañón: Extranjeros S/. 70.00, Nacionales S/. 20.00, latinos S/. 40.00</td>
+                <td>Costo total de Museo Larco: COSTO TOTAL DEL TOUR: Entrada general S/ 40.00, Adulto mayor (mayores de 60 años con identificación) S/ 30.00, Estudiantes (con identificación) S/ 20.00, Menores de edad (hasta 17 años, con identificación) S/ 20.00</td>
+                <td>Costo total de Chan Chan: El costo de las entradas es: adultos nacionales y extranjeros S/10; estudiantes de educación superior nacional o extranjero S/5; mayores de 60 años y militares en ejercicio S/5; y para estudiantes de educación escolar</td>
+            </tr>
+        </table>
+    </div>
+    <script>
+        // Oculta todo el contenido de las pestañas al cargar la página
+        window.onload = function() {
+            var contenidos = document.querySelectorAll('div[id^="pestaña"]');
+            for (var i = 0; i < contenidos.length; i++) {
+                contenidos[i].style.display = 'none';
+            }
+        };
+
+        function mostrarContenido(id) {
+            // Oculta todos los elementos con la clase "contenido"
+            var contenidos = document.querySelectorAll('div[id^="pestaña"]');
+            for (var i = 0; i < contenidos.length; i++) {
+                contenidos[i].style.display = 'none';
+            }
+            // Muestra el contenido de la pestaña seleccionada
+            var contenidoSeleccionado = document.getElementById(id);
+            contenidoSeleccionado.style.display = 'block';
+        }
+    </script>
+    <footer>
+        <p>Página hecha por: MICHEL ANDREA RICO DIAZ</p>
+        <p>Curso: 801</p>
+        <p>Colegio: ANTONIO JOSE URIBE</p>
+        <p>Año: 2024</p>
+    </footer>
+</body>
+</html>
+

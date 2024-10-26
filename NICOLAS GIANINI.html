@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NICARAGUA</title>
+</head>
+<body>
+    <div style="background-color:#E3F2FD;">
+        <button onclick="informacionCompleta('pestaña1')">Información completa</button>
+        <button onclick="caracteristicas('pestaña2')">Características</button>
+        <button onclick="tour('pestaña3')">Tour</button>
+        <h1>
+            <p style="font-family: Calibri; font-size: 80px;">NICARAGUA EL PAIS DE LAS RUINAS DE LEON Y CATEDRAL</p>
+        </h1>
+        <p>Nicaragua es un país de América Central que es conocido por sus lagos o lagunas, volcanes y las ruinas de la ciudad de León y Catedral. Comparte fronteras con Honduras al norte y al sur con Costa Rica.</p>
+        <h2 style="color: red; text-align: center;">CAPITAL</h2>
+        <p>La capital de Nicaragua está ubicada en el occidente de Nicaragua, en la costa suroeste del lago más conocido, su capital es:<br> MANAGUA </br></p>
+        <h3><img src="BANDERA NICARAGUA.webp" alt="bandera de nicaragua"></h3>
+        <h4 style="color: red; text-align: center;">PRESIDENTE ACTUAL</h4>
+        <p>El presidente actual de Nicaragua ha estado en el poder desde el 2007, fue guerrillero y es político. Daniel Ortega nació el 11 de noviembre de 1945, tiene 75 años en la actualidad y es el líder político del partido Sandinista de Liberación Nacional.</p>
+        <h5 style="color: red; text-align: center;">LIMITES</h5>
+        <p>Los límites de Nicaragua geográficamente son:<br> Comparte fronteras con Honduras al norte y al sur con Costa Rica, al oeste con el océano Pacífico y al este con el mar Caribe.</br></p>
+        <p style="color: red; text-align: center;">POBLACION DE NICARAGUA</p>
+        <p>La población de Nicaragua en 2024 es 6.850.540 personas, 53 habitantes por km².</p>
+    </div>
+    <div id="pestaña3">
+        <p>Los tours más importantes en Nicaragua son:</p>
+        <table border="10">
+            <tr>
+                <th></th>
+                <th>TOUR 1</th>
+                <th>TOUR 2</th>
+                <th>TOUR 3</th>
+                <th>TOUR 4</th>
+                <th>TOUR 5</th>
+            </tr>
+            <tr>
+                <td>Lugar</td>
+                <td>Volcán Masaya</td>
+                <td>Granada</td>
+                <td>Ometepe</td>
+                <td>Masaya</td>
+                <td>La Gran Sultana</td>
+            </tr>
+            <tr>
+                <td>Precio</td>
+                <td>10 USD</td>
+                <td>25 USD</td>
+                <td>35 USD</td>
+                <td>50 y 150 USD</td>
+                <td>50 USD en hotel</td>
+            </tr>
+            <tr>
+                <td>Precio de transporte</td>
+                <td>20-26 USD</td>
+                <td>50-60 USD</td>
+                <td>4 USD</td>
+                <td>1 USD</td>
+                <td>2 USD</td>
+            </tr>
+            <tr>
+                <td>Medio de transporte</td>
+                <td>Minivan o chicken bus</td>
+                <td>Taxi</td>
+                <td>Barcos</td>
+                <td>Bus</td>
+                <td>Bus</td>
+            </tr>
+        </table>
+    </div>
+    <footer>
+        <p>NICOLAS GIANINI TORRES MENDEZ 802</p>
+    </footer>
+    <script>
+        //ocultar todo el contenido de las pestañas al cargar la pagina
+        window.onload = function() {
+            var contenidos = document.querySelectorAll('div[id^="pestaña"]');
+            for (var i = 0; i < contenidos.length; i++) {
+                contenidos[i].style.display = 'none';
+            }
+        };
+        //muestra el contenido de la pestaña seleccionada
+        function informacionCompleta(id) {
+            document.getElementById(id).style.display = 'block';
+        }
+        function caracteristicas(id) {
+            document.getElementById(id).style.display = 'block';
+        }
+        function tour(id) {
+            document.getElementById(id).style.display = 'block';
+        }
+    </script>
+</body>
+</html>
+
+
+
+

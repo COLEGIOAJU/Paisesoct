@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Peru</title>
+</head>
+<body>
+    <div>
+        <button onclick="mostrarContenido('pestaña1')">INFORMACION DEL PAIS</button>
+        <button onclick="mostrarContenido('pestaña2')">CARACTERISTICAS DEL PAIS</button>
+        <button onclick="mostrarContenido('pestaña3')">TOURES</button>
+    </div>
+    <div id="pestaña1">
+        <h1>imagen en HTML</h1>
+        <img src="C:\Users\Estudiante\Documents\peru andrea" alt="bandera">
+        <h1 style="font-family: Calibri; font-size: 80px;">PERU</h1>
+        <div style="background-color: #f0f0f0;">
+            <!-- Este es un comentario que no se mostrará en la página web -->
+            <!-- Nótese que el color solo se aplica a lo que está debajo de la orden -->
+            <h2 style="color: red;">CAPITAL</h2>
+            <p>La capital de Perú ES:<br>
+                Lima <br>
+                La árida costa pacífica<br>
+                Una de las ciudades más grandes de Sudamérica <br>
+            </p>
+        </div>
+        <div style="background-color: #3498DB;">
+            <h3 style="color: blue;">PRESIDENTE ACTUAL</h3>
+            <p style="font-family: Arial; font-size: 18px;">Presidenta de la república desde el 7 de diciembre de 2022 es Dina Boluarte, quien asumió el cargo por sucesión presidencial. Quien ostente la presidencia ejerce sus funciones desde la Casa de Gobierno</p>
+        </div>
+        <div style="background-color: #E8DAEF;">
+            <h4 style="color: green;">LIMITES DE PERU</h4>
+            <p style="font-family: Times New Roman; font-size: 16px;">Limites de Perú:<br>
+                Limita por el norte con Ecuador y Colombia, al este con Brasil, al sureste con Bolivia y al sur con Chile.<br>
+                En cuanto a límites marítimos, colinda con Panamá, Costa Rica, Nicaragua, Honduras, Jamaica, Haití, República Dominicana y Venezuela en el Mar Caribe, y con Panamá, Costa Rica y Ecuador en el Océano Pacífico.
+            </p>
+        </div>
+        <h1>IMAGEN EN HTML</h1>
+        <img src="C:\Users\Estudiante\Documents\peru andrea" alt="mapa de limites">
+    </div>
+    <div id="pestaña2">
+        <h1>ACTIVIDAD ECONOMICA</h1>
+        <p>Producción Agrícola<br>
+        Producción Pecuaria<br>
+        Producción Pesquera<br>
+        Producción Forestal<br>
+        Comercio y Servicios<br>
+        Minería<br>
+        Turismo
+        </p>
+    </div>
+    <div id="pestaña3">
+        <table border="1">
+            <tr>
+                <th>MACHU PICCHU</th>
+                <th>CAÑON DE COLCA</th>
+                <th>LINEAS DE NAZCA</th>
+                <th>MUSEO LARCO</th>
+                <th>CHAN CHAN</th>
+            </tr>
+            <tr>
+                <td>Ubicación de Machu Picchu: Se ubica en la provincia de Urubamba, Región Cusco</td>
+                <td>Ubicación de Cañón del Colca: Ubicado dentro del Valle del Colca, el Cañón es uno de los mayores destinos turísticos no solo de Arequipa, sino también del Perú ubicada en el extremo noreste del departamento sureño, es una de las ocho divisiones que conforman la región de Arequipa.</td>
+                <td>Ubicación de Líneas de Nazca: 56 h (3.310,5 km) por Ctra. Panamericana S/Carretera 1S</td>
+                <td>Ubicación de Museo Larco: Frente al Parque Larco, Av. Simón Bolívar 1515 Ingreso por, Navarra 169, Pueblo Libre 15084, Perú</td>
+                <td>Ubicación de Chan Chan: Se ubica en la provincia de Trujillo, Región La Libertad. Fue la capital política, religiosa y administrativa del reino Chimor que dominó las etnias de toda la costa norte del Perú</td>
+            </tr>
+            <tr>
+                <td>Actividad para hacer en Machu Picchu: Tomar la mejor foto en la Casa del Guardián, Subir la montaña Huayna Picchu, El puente inca: la entrada secreta</td>
+                <td>Actividad para hacer en Cañón del Colca: Recorrer los pueblitos del Valle del Colca, El majestuoso vuelo del cóndor, Turismo vivencial en Coporaque, Baños termales de Chacapi, Tours de trekking</td>
+                <td>Actividad para hacer en Líneas de Nazca: Sobrevolar las líneas de Nazca, Observa las líneas desde el mirador, Cementerio de Chauchilla, Museo didáctico Antonini, Cahuachi, Acueductos de Cantalloc, Los Paredones, Museo Maria Reiche</td>
+                <td>Actividad para hacer en Museo Larco: Exposición de elementos históricos y culturales, Investigación, Difusión, Protección del patrimonio, Atracción del público</td>
+                <td>Actividad para hacer en Chan Chan: Uno de los templos más importantes de Chan Chan es el Templo del Dragón o del Arcoiris. Además, es uno de los templos mejor conservados y más importantes de Perú. Este templo fue construido en adobe y tenía un propósito religioso ya que se utilizaba para diversos rituales de la cultura Chimú</td>
+            </tr>
+            <tr>
+                <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBRrvqaL2YxeqXTvuls_FZegMZ5CtaHQvWYA&s" alt="Machu Picchu"></td>
+                <td><img src="https://images.ecestaticos.com/PO1TzmtBJkJeeUgvLETB1DN_oSg=/167x0:2179x1509/557x418/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fac8%2F4f6%2F53f%2Fac84f653f085bd69048673c082837a29.jpg" alt="Cañón del Colca"></td>
+                <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShWflNGWk9HS1l1niDbtQgNW_kqsd0YJq7qw&s" alt="Líneas de Nazca"></td>
+                <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2Ymx9mY1mPpPtTV-8pe8prK0sXNKlrqpYBQ&s" alt="Museo Larco"></td>
+                <td><img src="https://cdn.audleytravel.com/2796/1998/79/1017426-adobe-walls-chan-chan-chimu-culture-peru.jpg" alt="Chan Chan"></td>
+            </tr>
+            <tr>
+                <td>Costo de visita: Entrada Machu Picchu solo 2024: Extranjero - Adulto: 60 USD, Estudiante: 35 USD, Menores (de 3 a 17 años): 35 USD; Nacional (Perú, Colombia, Bolivia, Ecuador) - Adulto, Estudiante, Menores (de 3 a 17 años)</td>
+                <td>Costo de visita: La entrada para peruanos cuesta 20 soles y para niños, estudiantes y adulto mayor tiene un costo de 5 soles. Por otro lado, los visitantes latinoamericanos pagan 40 soles adultos y 20 niños, y para extranjeros de otras nacionalidades el precio es de 70 soles adultos y 20 soles niños</td>
+                <td>Costo de visita de Cañón del Colca: La entrada para peruanos cuesta 20 soles y para niños, estudiantes y adulto mayor tiene un costo de 5 soles. Por otro lado, los visitantes latinoamericanos pagan 40 soles adultos y 20 niños, y para extranjeros de otras nacionalidades el precio es de 70 soles adultos y 20 soles niños</td>
+                <td>Costo de visita de Museo Larco: Entrada general S/ 40.00, Adulto mayor (mayores de 60 años con identificación) S/ 30.00, Estudiantes (con identificación) S/ 20.00, Menores de edad (hasta 17 años, con identificación) S/ 20.00</td>
+                <td>Costo de visita de Chan Chan: El costo de las entradas es: adultos nacionales y extranjeros S/10; estudiantes de educación superior nacional o extranjero S/5; mayores de 60 años y militares en ejercicio S/5; y para estudiantes de educación escolar</td>
+            </tr>
+            <tr>
+                <td>Medio de transporte: Existen 3 formas de llegar a Machu Picchu. La más rápida y segura es por la ruta en tren. Además está la ruta alternativa por Hidroeléctrica (8 horas de viaje en bus) y el famoso Camino Inca (ruta de senderismo de 4 días)</td>
+                <td>Medio de transporte para el Cañón del Colca: Para llegar allí se debe tomar un transporte de servicio público hasta el pueblo de Chivay o el poblado de Cabanaconde, ambos pertenecientes a la provincia de Caylloma. Conoce paso a paso cómo ir a este increíble lugar y observar el cañón más profundo del mundo.</td>
+                <td>Medio de transporte de Líneas de Nazca: La forma tradicional de llegar a Nazca es en autobús desde las ciudades de Lima, Ica, Paracas, Cusco y Arequipa. Alternativamente en vuelos rentados desde Lima asociados a los sobrevuelos de las Líneas de Nazca y Líneas de Palpa, el aeropuerto de Nazca no tiene tráfico aéreo regular.</td>
+                <td>Medio de transporte para Museo Larco: Líneas de Autobús con las estaciones más cercanas a Av Larco en Miraflores</td>
+                <td>Medio de transporte para Chan Chan: Para llegar a Chan Chan debes ir a Trujillo. Desde Lima podrás encontrar boletos de bus a Trujillo por 75 soles ($22 USD) y toma alrededor de 10-12 horas llegar hasta allá. Desde Trujillo hay buses locales regulares que van a Huanchaco, un pueblo en la costa al lado de Trujillo que se debe visitar.</td>
+            </tr>
+            <tr>
+                <td>Costo total de Machu Picchu: Super Precio para Extranjeros 257 USD - 285 USD; Super Precio para Comunidad Andina 228 USD - 260 USD; Super Precio en servicio "Privado" 2Tickets de entrada al Cañón: Extranjeros S/. 70.00, Nacionales S/. 20.00, latinos S/. 40.00</td>
+                <td>Costo total de Cañón del Colca: Tickets de entrada al Cañón: Extranjeros S/. 70.00, Nacionales S/. 20.00, latinos S/. 40.00</td>
+                <td>Costo total de Líneas de Nazca: Tickets de entrada al Cañón: Extranjeros S/. 70.00, Nacionales S/. 20.00, latinos S/. 40.00</td>
+                <td>Costo total de Museo Larco: COSTO TOTAL DEL TOUR: Entrada general S/ 40.00, Adulto mayor (mayores de 60 años con identificación) S/ 30.00, Estudiantes (con identificación) S/ 20.00, Menores de edad (hasta 17 años, con identificación) S/ 20.00</td>
+                <td>Costo total de Chan Chan: El costo de las entradas es: adultos nacionales y extranjeros S/10; estudiantes de educación superior nacional o extranjero S/5; mayores de 60 años y militares en ejercicio S/5; y para estudiantes de educación escolar</td>
+            </tr>
+        </table>
+    </div>
+    <script>
+        // Oculta todo el contenido de las pestañas al cargar la página
+        window.onload = function() {
+            var contenidos = document.querySelectorAll('div[id^="pestaña"]');
+            for (var i = 0; i < contenidos.length; i++) {
+                contenidos[i].style.display = 'none';
+            }
+        };
+
+        function mostrarContenido(id) {
+            // Oculta todos los elementos con la clase "contenido"
+            var contenidos = document.querySelectorAll('div[id^="pestaña"]');
+            for (var i = 0; i < contenidos.length; i++) {
+                contenidos[i].style.display = 'none';
+            }
+            // Muestra el contenido de la pestaña seleccionada
+            var contenidoSeleccionado = document.getElementById(id);
+            contenidoSeleccionado.style.display = 'block';
+        }
+    </script>
+    <footer>
+        <p>Página hecha por: MICHEL ANDREA RICO DIAZ</p>
+        <p>Curso: 801</p>
+        <p>Colegio: ANTONIO JOSE URIBE</p>
+        <p>Año: 2024</p>
+    </footer>
+</body>
+</html>
+

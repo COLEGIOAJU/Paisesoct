@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Todo sobre Puerto Rico</title>
+</head>
+<body>
+    <div> 
+        <button onclick="mostrarContenido('pestaña1')">Informacion completa</button>
+        <button onclick="mostrarContenido('pestaña2')">Caracteristicas</button>
+        <button onclick="mostrarContenido('pestaña3')">Tour</button>
+    </div>
+
+    <div id="pestaña1" style="display: none;">
+        <h1>Puerto Rico</h1>
+        <p>Puerto Rico cuenta con una gran diversidad ecologica y con el área de biodiversidad más grande en las islas del Caribe. Este es un territorio no incorporado a Estados Unidos, siendo un estado libre con un aproximado de 3.2 millones de habitantes.</p>
+        <h3>Capital</h3>
+        <p>Esta capital se bautizó San Juan de la frontera en honor del santo patrono San Juan Bautista y por llegar su territorio hasta la frontera con el Tucumán. San Juan se caracteriza por tener un relieve montañoso intercalado por valles, bajo en clima predominante templado seco.</p>
+        <h3>Bandera</h3>
+        <img src="BPR.png" height="500px" width="600px" alt="Bandera de Puerto Rico">
+        <h3>Presidente actual</h3>
+        <p>Su presidente es el mismo de USA, es decir, Joe Biden, ya que este es un territorio no incorporado de USA.</p>
+        <h3>Limites</h3>
+        <p>Al norte está el océano Atlántico, al sur con Venezuela, al este está República Dominicana y al oeste con el océano Atlántico.</p>
+        <img src="centralamericajl.png" height="500px" width="800px" alt="Mapa de Puerto Rico">
+        <h2>Puerto Rico tiene lugares muy interesantes de visitar, aquí hay algunos de ellos:</h2>
+    </div>
+
+    <div id="pestaña2" style="display: none;">
+        <p>Contenido de las características del país.</p>
+    </div>
+
+    <div id="pestaña3" style="display: none;">
+        <table border="1">
+            <tr>
+                <th>Nombre</th>
+                <th>Ubicacion</th>
+                <th>Costo</th>
+                <th>Actividad de desarrollo</th>
+                <th>Medio de transporte</th>
+                <th>Costo total</th>
+            </tr>
+            <tr>
+                <td>Cueva del indio</td>
+                <td>San Juan</td>
+                <td>10 USD</td>
+                <td>Hacer picnics</td>
+                <td>En Taxi</td>
+                <td>134 USD</td>
+            </tr>
+            <tr>
+                <td>El castillo de San Juan</td>
+                <td>San Juan</td>
+                <td>10 USD</td>
+                <td>Ir a los pasadizos</td>
+                <td>En tren</td>
+                <td>40 USD</td>
+            </tr>
+            <tr>
+                <td>El Yunque</td>
+                <td></td>
+                <td>8 USD</td>
+                <td>Ver los tipos de aves</td>
+                <td>En taxi</td>
+                <td>128 USD</td>
+            </tr>
+            <tr>
+                <td>Sitio nacional de Puerto Rico</td>
+                <td>San Juan</td>
+                <td>20 USD</td>
+                <td>Conocer los castillos</td>
+                <td>En taxi</td>
+                <td>60 USD</td>
+            </tr>
+            <tr>
+                <td>Castillo de San Felipe del Morro</td>
+                <td>San Juan</td>
+                <td>10 USD</td>
+                <td>Ver las vistas</td>
+                <td>En tren</td>
+                <td>40 USD</td>
+            </tr>
+        </table>
+        <p>De Yomar</p>
+    </div>
+
+    <script>
+        // Oculta todo el contenido de las pestañas al cargar la página
+        window.onload = function() {
+            var contenidos = document.querySelectorAll('div[id^="pestaña"]');
+            for (var i = 0; i < contenidos.length; i++) {
+                contenidos[i].style.display = 'none';
+            }
+        };
+
+        function mostrarContenido(id) {
+            // Oculta todos los elementos con la clase "contenido"
+            var contenidos = document.querySelectorAll('div[id^="pestaña"]');
+            for (var i = 0; i < contenidos.length; i++) {
+                contenidos[i].style.display = 'none';
+            }
+            // Muestra el contenido de la pestaña seleccionada
+            var contenidoSeleccionado = document.getElementById(id);
+            contenidoSeleccionado.style.display = 'block';
+        }
+    </script>
+</body>
+</html>

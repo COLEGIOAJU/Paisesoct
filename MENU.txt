@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Projects Menu</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding-top: 20px;
+        }
+    </style>
+<title>PÁGINAS WEB DE LOS PAISES AMERICANOS AJU- 2024</title>
+</head>
+<body>
+    <div class="container">
+<h1> EJEMPLO DE PAGINA:</h1>
+<a href="COLOMBIA.html">EJEMPLO CON COLOMBIA</a>
+        <h2>PÁGINAS DEL CURSO 801</h2>
+        <table>
+            <tr>
+                <th>País asignado</th>
+                <th>Estudiante</th>
+                <th>Nombre Página</th>
+            </tr>
+            <tr>
+                <td>Canadá</td>
+                <td>Arevalo Diego</td>
+                <td><a href="canada diego.html">canada diego.html</a></td>
+            </tr>
+            <tr>
+                <td>Estados Unidos</td>
+                <td>Aristizabal Deyby</td>
+                <td><a href="ARISTIZABAL.HTML">ARISTIZABAL.HTML</a></td>
+            </tr>
+            <tr>
+                <td>México</td>
+                <td>Camargo Anderson</td>
+                <td><a href="anderson mayo 8 de junio.html">anderson mayo 8 de junio.html</a></td>
+            </tr>
+            <tr>
+                <td>Guatemala</td>
+                <td>Diaz Didier</td>
+                <td><a href="DIDIER DIAZ FOOTER GUATEMALA 322224.html">DIDIER DIAZ FOOTER GUATEMALA 322224.html</a></td>
+            </tr>
+            <tr>
+                <td>El Salvador</td>
+                <td>Gomez Michell</td>
+                <td><a href="MICHEL HTML SALVADOR TABLA.html">MICHEL HTML SALVADOR TABLA.html</a></td>
+            </tr>
+            <tr>
+                <td>Costa Rica</td>
+                <td>Mendez Dayanna</td>
+                <td><a href="costa rica mendez final.html">costa rica mendez final.html</a></td>
+            </tr>
+            <tr>
+                <td>Panamá</td>
+                <td>Herrera Luz Clarita</td>
+                <td><a href="panama html2222222.html">panama html2222222.html</a></td>
+            </tr>
+            <tr>
+                <td>Cuba</td>
+                <td>Montilla Moises</td>
+                <td><a href="MOISES CUBA.html">MOISES CUBA.html</a></td>
+            </tr>
+            <tr>
+                <td>República Dominicana</td>
+                <td>Orozco Eilin</td>
+                <td><a href="republica dominicana eilin 801.html">republica dominicana eilin 801.html</a></td>
+            </tr>
+            <tr>
+                <td>Puerto Rico</td>
+                <td>Ostos Andres</td>
+                <td><a href="PUERTO RICO ANDRES OSTOS.html">PUERTO RICO ANDRES OSTOS.html</a></td>
+            </tr>
+            <tr>
+                <td>Brasil</td>
+                <td>Pineda Valentina</td>
+                <td><a href="valentina final.html">valentina final.html</a></td>
+            </tr>
+            <tr>
+                <td>Ecuador</td>
+                <td>Quiroz Alexander</td>
+                <td>NO ENTREGO</td>
+            </tr>
+            <tr>
+                <td>Perú</td>
+                <td>Rico Andrea</td>
+                <td><a href="michel12345.html">michel12345.html</a></td>
+            </tr>
+            <tr>
+                <td>Bolivia</td>
+                <td>Rivera Alison</td>
+                <td><a href="ALISONPG.HTML">ALISONPG.HTML</a></td>
+            </tr>
+            <tr>
+                <td>Paraguay</td>
+                <td>Rodriguez María Fernanda</td>
+                <td><a href="mafe2.html">mafe2.html</a></td>
+            </tr>
+            <tr>
+                <td>Uruguay</td>
+                <td>Sanchez Alan</td>
+                <td>NO ENTREGO</td>
+            </tr>
+            <tr>
+                <td>Chile</td>
+                <td>Sanchez Rodolfo</td>
+                <td><a href="chile.html">chile.html</a></td>
+            </tr>
+            <tr>
+                <td>Argentina</td>
+                <td>Varela Darianyely</td>
+                <td><a href="argentina varela.html">argentina varela.html</a></td>
+            </tr>
+            <tr>
+                <td>Nicaragua</td>
+                <td>Zabala Nicol</td>
+                <td><a href="HTML NICOL 7 de junio final.html">HTML NICOL 7 de junio final.html</a></td>
+            </tr>
+            <tr>
+                <td>Honduras</td>
+                <td>Palomino</td>
+                <td><a href="honduras KENNY.html">honduras KENNY.html</a></td>
+            </tr>
+            <tr>
+                <td>Haiti</td>
+                <td>Toca</td>
+                <td><a href="HAITI.html">HAITI.html</a></td>
+            </tr>
+        </table>
+
+        <h1>PÁGINAS DEL CURSO 802</h1>
+        <table>
+            <tr>
+                <th>País asignado</th>
+                <th>Estudiante</th>
+                <th>Nombre Página</th>
+            </tr>
+            <tr>
+                <td>Estados Unidos</td>
+                <td>Bautista Santiago</td>
+                <td><a href="david55509.html">david55509.html</a></td>
+            </tr>
+            <tr>
+                <td>México</td>
+                <td>Cabrera Nicol</td>
+                <td>NO ENTREGO</td>
+            </tr>
+            <tr>
+                <td>El Salvador</td>
+                <td>Fajardo Johan</td>
+                <td><a href="EL SALVADOR.html">EL SALVADOR.html</a></td>
+            </tr>
+            <tr>
+                <td>Costa Rica</td>
+                <td>Gallon Vikis</td>
+                <td><a href="COSTA RICA vikis.html">COSTA RICA vikis.html</a></td>
+            </tr>
+            <tr>
+                <td>Panamá</td>
+                <td>Gómez Johanna</td>
+                <td><a href="indez.html">indez.html</a></td>
+            </tr>
+            <tr>
+                <td>Cuba</td>
+                <td>Gonzalez Moises</td>
+                <td><a href="moisescuba.html">moisescuba.html</a></td>
+            </tr>
+            <tr>
+                <td>República Dominicana</td>
+                <td>Jacanamijoy Duban</td>
+                <td><a href="duvan 802.html">duvan 802.html</a></td>
+            </tr>
+            <tr>
+                <td>Puerto Rico</td>
+                <td>López Yomar</td>
+                <td><a href="PRy.html">PRy.html</a></td>
+            </tr>
+            <tr>
+                <td>Brasil</td>
+                <td>Marquez Antwan</td>
+                <td><a href="brasil antwan.html">brasil antwan.html</a></td>
+            </tr>
+            <tr>
+                <td>Ecuador</td>
+                <td>Montenegro Angie</td>
+                <td><a href="ecuador tatiana.html">ecuador tatiana.html</a></td>
+            </tr>
+            <tr>
+                <td>Perú</td>
+                <td>Ocampo Fernanda</td>
+                <td>NO ENTREGO</td>
+            </tr>
+            <tr>
+                <td>Bolivia</td>
+                <td>Quiceno Juan Camilo</td>
+                <td><a href="Bolivia juan camilo quiceno 802.HTML">Bolivia juan camilo quiceno 802.HTML</a></td>
+            </tr>
+            <tr>
+                <td>Paraguay</td>
+                <td>Quiñonez Sara</td>
+                <td><a href="paraguay802.html">paraguay802.html</a></td>
+            </tr>
+            <tr>
+                <td>Uruguay</td>
+                <td>Rodriguez Luisa</td>
+                <td><a href="URUGUAY.html">uruguay.html</a></td>
+            </tr>
+            <tr>
+                <td>Chile</td>
+                <td>Camacho Lizeth</td>
+                <td><a href="CHILE LIZETH.html">CHILE LIZETH.html</a></td>
+            </tr>
+            <tr>
+                <td>Argentina</td>
+                <td>Sosa Paula</td>
+                <td><a href="argentinee.html">argentinee.html</a></td>
+            </tr>
+            <tr>
+                <td>Nicaragua</td>
+                <td>Torres Nicolas</td>
+                <td><a href="NICOLAS GIANINI.html">NICOLAS GIANINI.html</a></td>
+            </tr>
+            <tr>
+                <td>Honduras</td>
+                <td>Castillo Juan</td>
+                <td><a href="honduras juan.html">honduras juan.html</a></td>
+            </tr>
+            <tr>
+                <td>Trinidad y Tobago</td>
+                <td>Acosta Juan</td>
+                <td>NO ENTREGO</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

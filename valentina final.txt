@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BRASIL</title>
+</head>
+<body> 
+    <h1><p style="font-skiia; display: inline; font-size: 75px;">BRASIL, PAÍS DE SUDAMÉRICA</p></h1>
+    <h2><p style="color: skyblue;">CAPITAL</p></h2>
+    <img src="C:\Users\Estudiante\Documents" alt="BANDERA DE BRASIL"/>
+    <p>BRASILIA: ciudad planificada que se distingue por su arquitectura moderna.</p>
+    <h3><p style="color: red;">PRESIDENTE ACTUAL:</p></h3>
+    <p>Luiz Inácio Lula da Silva, más conocido como Lula da Silva, quien asumió el cargo desde 2023.</p>
+    <h4><p style="color: pink;">LÍMITES DE BRASIL</p></h4>
+    <img src="C:\Users\Estudiante\Documents\BRASIL" alt="MAPA DE BRASIL"/>
+    <p style="font-weight: bold; font-family: times new roman; font-size: 16px;">
+        Los siguientes países son: Limita al norte, con Venezuela, Colombia, Guyana, Surinam y la Guyana Francesa; al oeste, con Perú y Bolivia; al sur, con Paraguay, Argentina y Uruguay; y al este con el océano Atlántico.
+    </p>
+    <h5>ACTIVIDAD ECONÓMICA</h5>
+    <p>
+        Brasil es una importante potencia agrícola e industrial, y la economía más fuerte de América Latina y el Caribe. Es uno de los principales productores de café, caña de azúcar, soja, carne de vacuno y aves de corral.
+    </p>
+    <div id="pestaña1">
+        <h6 style="font-family: Calibri; font-size: 40px;">BRASIL, PAÍS DE BELLEZA Y GRANDES CARNAVALES</h6>
+    </div>
+    <div id="pestaña2">
+        <h7 style="color: red;">CARACTERÍSTICAS GENERALES DE BRASIL</h7>
+        <p>
+            Brasil está ubicado en el este de América del Sur, con una superficie total de 8 511 965 km. Además, limita territorialmente con 10 países, solamente menos que Rusia y China (14 países), y tiene una de las mayores líneas costeras continuas, con 7491 km y tiene alrededor de 215,3 millones de habitantes.
+        </p>
+    </div>
+    <div id="pestaña3">
+        <h8 style="font-family: Calibri; font-size: 35px;">TURISMO EN BRASIL</h8>
+        <p>
+            El turismo en Brasil es una actividad importante en varias regiones del país. Con 6 600 000 visitantes extranjeros, en Brasil encontrarás una naturaleza exuberante, playas paradisíacas, rica gastronomía, infinitas atracciones culturales y la calidez de los brasileños. Sus aromas tropicales, sus colores mestizos, su fantástica música... Brasil es mucho más que eso. Brasil es convocar inevitablemente los mitos de Río de Janeiro, del Carnaval y del Fútbol, famosísima trilogía.
+        </p>
+    </div>
+    <footer>
+        <p>
+            NOMBRE: Valentina Pineda<br>
+            CURSO: 801<br>
+            COLEGIO: Antonio José Uribe<br>
+            AÑO: 2024
+        </p>
+    </footer>
+    <button onclick="mostrarContenido('pestaña1')">IDENTIFICACIÓN DEL PAÍS</button>
+    <button onclick="mostrarContenido('pestaña2')">CARACTERÍSTICAS GENERALES DEL PAÍS</button>
+    <button onclick="mostrarContenido('pestaña3')">TURISMO EN EL PAÍS</button>
+    <table border="1">
+        <tr> 
+            <th></th>
+            <th>TOUR 1</th>
+            <th>TOUR 2</th>
+            <th>TOUR 3</th>
+            <th>TOUR 4</th>
+            <th>TOUR 5</th>
+        </tr>
+        <tr>
+            <td>LUGAR</td>
+            <td>CRISTO REDENTOR</td>
+            <td>RÍO DE JANEIRO</td>
+            <td>FLORIANÓPOLIS</td>
+            <td>CATARATAS DEL IGUAZÚ</td>
+            <td>CATEDRAL DE BRASILIA</td>
+        </tr>
+        <tr>
+            <td>UBICACIÓN</td>
+            <td>En el cerro del Corcovado es un monte brasileño de 713 metros</td>
+            <td>En la ciudad costera de Brasil</td>
+            <td>En la capital del estado Santa Catarina</td>
+            <td>En el norte de la provincia de Misiones en el límite con Brasil</td>
+            <td>Es la catedral metropolitana de Brasilia, capital federal de Brasil</td>
+        </tr>
+        <tr>
+            <td>ACTIVIDADES PARA HACER</td>
+            <td>Mirar al Cristo Redentor</td>
+            <td>Se pueden hacer caminatas y te dan un tour</td>
+            <td>Vista de animales y playas secretas</td>
+            <td>Te dan un tour para poder ver la naturaleza</td>
+            <td>Se puede admirar el altar mayor, el altar de los reyes y la capilla de las almas</td>
+        </tr>
+    </table>
+</body>
+</html>

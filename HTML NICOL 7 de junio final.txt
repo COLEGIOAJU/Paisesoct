@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>NICARAGUA</title>
+</head>
+<body>                                  
+<div>
+  <button onclick="MostrarContenido('pestaña1')">Información</button>
+  <button onclick="MostrarContenido('pestaña2')">Características</button>
+  <button onclick="MostrarContenido('pestaña3')">Turismo</button>
+  <button onclick="MostrarContenido('pestaña4')">Abstract</button>
+</div>
+<div id="pestaña1">
+  <h1 style="font-family:calibri; font-size:80px;">CAPITAL</h1>
+  <p>Capital: Managua.</p>
+  <div style="background-color: #f0f0f0;">
+    <img src="c\Users\DOCENTE\Documents\NICARAGUA (NICOL ZABALA ).JP6" alt="BANDERA DE NICARAGUA">
+    <h2 style="color: red;">CAPIT</h2>
+    <div style="background-color:#3498DB;">
+      <h3 style="color:blue;">PRESIDENTE ACTUAL</h3>
+      <p>El presidente actual de Nicaragua es DANIEL ORTEGA DESDE EL 10 DE ENERO DEL 2010.</p>
+    </div>
+    <div style="background-color:#E8DAEF;">
+      <h4 style="color:blue;">LIMITES DE NICARAGUA</h4>
+      <p style="font-family:calibri; font-size:16px;">NICARAGUA PRESENTA LOS SIGUIENTES LIMITES: <br>
+      Entre el mar Caribe al este y el océano Pacífico al oeste.</p>
+    </div>
+  </div>
+</div>
+<div id="pestaña2">
+  <h5 style="color:red;">CARACTERISTICAS GENERALES</h5>
+  <p>Es la mayor de las Repúblicas Centroamericanas, situada entre el mar Caribe al este y el océano Pacífico al oeste.</p>
+  <h6 style="color:red;">PRINCIPALES ACTIVIDADES ECONOMICAS</h6>
+  <p>Producción de manufacturas ligeras, servicios y agricultura.</p>
+  <h7 style="color:red;">PRINCIPALES CARACTERISTICAS DE LA POBLACION</h7>
+  <p>La población femenina es el 50,72% del total, ligeramente superior a la masculina.</p>
+  <h8 style="color:red;">ELEMENTOS CULTURALES</h8>
+  <p>El colorido, la comida, la bebida, la pólvora, la música, los bailes típicos, los desfiles hípicos, las corridas de toros, los promesantes, y los actos religiosos.</p>
+</div>
+<div id="pestaña3">
+  <h9 style="color:red;">NOMBRE DEL LUGAR</h9>
+  <p>Reserva natural volcán Mombacho.</p>
+  <h10 style="color:red;">UBICACION</h10>
+  <p>Sur de la ciudad de Granada y de las isletas de Granada.</p>
+  <h11 style="color:red;">FOTOGRAFIA</h11>
+  <p>img</p>
+  <h12 style="color:red;">ACTIVIDADES PARA DESARROLLAR ALLÍ</h12>
+  <p>Caminatas.</p>
+  <h13 style="color:red;">COSTO DE VISITA AL SITIO</h13>
+  <p>Subir al volcán en un vehículo particular cuesta US$22 por el vehículo, y luego US$2 por cada niño nacional y US$3 por cada niño extranjero y US$3 por cada adulto nacional dentro de él y US$5 por cada adulto extranjero.</p>
+  <h14 style="color:red;">MEDIO DE TRANSPORTE PARA LLEGAR</h14>
+  <p>En taxi que dura 24 MIN y cuesta $2-$3.</p>
+  <h15 style="color:red;">COSTO TOTAL</h15>
+  <p>Boleto: precio (USD) 2 personas (P/P) 65.00 (USD), 4 personas o más (P/P) 55.00 (USD).</p>
+</div>
+<div id="pestaña4">
+  <table border="1">
+    <tr>
+      <th></th> 
+      <th>TOUR1</th>
+      <th>TOUR2</th>
+      <th>TOUR3</th>
+      <th>TOUR4</th>
+      <th>TOUR5</th>
+    </tr>
+    <tr>
+      <th>LUGAR</th>
+      <th>SAN JUAN DEL SUR</th>
+      <th>Masaya</th>
+      <th>GRANADA</th>
+      <th>Cerro Negro</th>
+      <th>San Juan del Sur</th>
+    </tr>
+    <tr>
+      <th>UBICACION</th>
+      <th>Municipio en Nicaragua</th>
+      <th>Municipio en Nicaragua</th>
+      <th>Municipio en Nicaragua</th> 
+      <th>Volcán en Nicaragua</th>
+      <th>Municipio en Nicaragua</th>
+    </tr>
+    <tr>
+      <th>Actividades para hacer</th>
+      <th>TOUR1</th>           
+      <th>TOUR2</th>
+      <th>TOUR3</th>
+      <th>TOUR4</th>
+      <th>TOUR5</th>
+    </tr>
+    <tr>
+      <th>foto</th>
+      <th>TOUR1</th>           
+      <th>TOUR2</th>
+      <th>TOUR3</th>
+      <th>TOUR4</th>
+      <th>TOUR5</th>
+    </tr>
+    <tr>
+      <th>TOUR1</th>
+      <th>TOUR1</th>       
+      <th>TOUR2</th>
+      <th>TOUR3</th>
+      <th>TOUR4</th>
+      <th>TOUR5</th>
+    </tr>
+  </table>
+</div>
+</body>
+</html>

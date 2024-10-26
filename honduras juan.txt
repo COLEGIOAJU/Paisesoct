@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Honduras</title>
+    <style>
+        /* Add your CSS styles here */
+    </style>
+</head>
+<body>
+<div>
+    <button onclick="mostrarContenido('pestaña1')">Identificación de Honduras</button>
+    <button onclick="mostrarContenido('pestaña2')">Características de Honduras</button>
+    <button onclick="mostrarContenido('pestaña3')">Tour de Honduras</button>
+    <button onclick="mostrarContenido('pestaña4')">Abstract</button>
+</div>
+
+<div id="pestaña1">
+    <h1>Honduras: País de la Oportunidad</h1>
+    <img src="bandera de honduras.png" alt="bandera de Honduras">
+    <div style="background-color: #0033FF;">
+        <h2>Capital</h2>
+        <p>La capital de Honduras es la ciudad de Tegucigalpa, ubicada en un valle rodeado de montañas.</p>
+    </div>
+    <div style="background-color: #28B463;">
+        <h3>Presidente Actual</h3>
+        <p>Xiomara Castro desde el 2022-2026</p>
+        <p>Límites:
+            <br>al norte con el Mar Caribe y el Océano Atlántico,
+            <br>al sur con Nicaragua, el Golfo de Fonseca y el Océano Pacífico,
+            <br>al este con el Mar Caribe,
+            <br>al oeste con Guatemala,
+            <br>al noroeste con Guatemala,
+            <br>al suroeste con El Salvador
+        </p>
+        <img src="mapahonduras.png" alt="mapa">
+    </div>
+</div>
+
+<div id="pestaña2">
+    <h4>Actividad Económica</h4>
+    <p>Las actividades económicas más importantes incluyen Comercio; Transporte y Almacenamiento; Hoteles y Restaurantes; Agricultura, Ganadería, Silvicultura y Pesca; Telecomunicaciones; y Construcción Privada.</p>
+    <h5>Población</h5>
+    <p>La población de Honduras es diversa, con una mayoría mestiza.</p>
+    <h6>Cultura</h6>
+    <p>La cultura de Honduras es rica y diversa, reflejando la mezcla de mestizos</p>
+</div>
+
+<div id="pestaña3">
+    <h4>Sitios Turísticos en Honduras</h4>
+    <p>Algunos lugares destacados para visitar en Honduras son...</p>
+    <table border="1">
+        <tr>
+            <th></th>
+            <th>Museo de la Identidad Nacional</th>
+            <th>Cataratas Pulhapanzak</th>
+            <th>Parque Nacional Celaque</th>
+            <th>Basílica de Nuestra Señora de Suyapa</th>
+            <th>Lago de Yojoa</th>
+        </tr>
+        <tr>
+            <td>Ubicación</td>
+            <td>Dirección: 4Q4R+MP8, Calle El Telegrafo, Tegucigalpa, Francisco Morazán, Honduras</td>
+            <td>Dirección: Cataratas Pulhapanzak, San Buenaventura, Honduras</td>
+            <td>Dirección: Cataratas Pulhapanzak, San Buenaventura, Honduras</td>
+            <td>Dirección: Tegucigalpa, MDC Honduras</td>
+            <td>Entre los 14º45´00” y 14º57´00” latitud norte y entre los 87º53´00” y 88º07´00” longitud oeste</td>
+        </tr>
+        <tr>
+            <td>Medio de Transporte</td>
+            <td>Bus</td>
+            <td>Bus</td>
+            <td>Taxi y Bus</td>
+            <td>Taxi</td>
+            <td>Bus y Taxi</td>
+        </tr>
+        <tr>
+            <td>Costo por Persona</td>
+            <td>1-2 lempira hondureño</td>
+            <td>3 lempira hondureño</td>
+            <td>1 lempira hondureño</td>
+            <td>15-17 lempira hondureño</td>
+            <td>68 lempira hondureño</td>
+        </tr>
+    </table>
+</div>
+
+<div id="pestaña4">
+    <h1>Abstract de Honduras</h1>
+    <div style="background-color: #0033FF;">
+        <p>Honduras became independent from Spain in 1821, but in 1822 it was united with Mexico and four other nations, Costa Rica, El Salvador, Guatemala and Nicaragua. However, the five Central American nations seceded from Mexico in 1823. Honduras finally became fully independent in 1839.
+        At the beginning of the 20th century, banana exports came to dominate the Honduran economy. In 1932 General Tiburcio Carias Andino was elected president of Honduras. He became a virtual dictator and remained in power until 1949. General Oswaldo López took power in Honduras in 1963.
+        Then, in 1969, Honduras fought a war with El Salvador. Oswaldo López resigned in 1974, but civilian government was not restored until 1981. Unfortunately, Honduras suffered greatly when Hurricane Mitch hit the country in 1998. However, the country slowly recovered. However, Honduras remains a very poor country. Today the population of Honduras is 9.1 million inhabitants.</p>
+    </div>
+</div>
+
+<script>
+    window.onload = function() {
+        var contenidos = document.querySelectorAll('div[id^="pestaña"]');
+        for (var i = 0; i < contenidos.length; i++) {
+            contenidos[i].style.display = 'none';
+        }
+    };
+
+    function mostrarContenido(id) {
+        var contenidos = document.querySelectorAll('div[id^="pestaña"]');
+        for (var i = 0; i < contenidos.length; i++) {
+            contenidos[i].style.display = 'none';
+        }
+        var contenidoSeleccionado = document.getElementById(id);
+        contenidoSeleccionado.style.display = 'block';
+    }
+</script>
+
+<footer>
+    <p

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PANAMA</title>
+</head>
+<body>
+    <div>
+        <button onclick="mostrarContenido('pestaña1')">Pestaña 1</button>
+    </div>
+    <div>
+        <button onclick="mostrarContenido('pestaña2')">Pestaña 2</button>
+    </div>
+    <div>
+        <button onclick="mostrarContenido('pestaña3')">Pestaña 3</button>
+    </div>
+
+    <h1>panama pais de muchos arboles</h1>
+    <img src="C:\Users\Estudiante\Documents\JHOANA panama" alt="Panama">
+    <h1>
+        <p style="font-family: Calibri; font-size: 80px;">PANAMA</p>
+    </h1>
+    <div style="background-color: #f0f0f0;">
+        <h2>
+            <p style="color: red;">CAPITAL</p>
+        </h2>
+        <p>La capital de PANAMA queda ubicada en las orillas del golfo de panama al este</p>
+    </div>
+
+    <div style="background-color: #3498DB;">
+        <h3>
+            <p style="color: blue;">PRESIDENTE ACTUAL</p>
+        </h3>
+        <p style="font-family: Arial; font-size: 18px;">El presidente actualmente de Panama es Laurentino Cortizo</p>
+    </div>
+
+    <div style="background-color: #E8DAEF;">
+        <h4>
+            <p style="color: green;">LIMITES DE COLOMBIA</p>
+        </h4>
+        <p style="font-family: 'Times New Roman'; font-size: 16px;">Colombia presenta los siguientes limites: <br>
+            Al sur con el Atlántico <br>
+            Al sur con el Pacífico <br>
+            Al noroeste con Colombia <br>
+            Al oeste con Costa Rica.
+        </p>
+    </div>
+
+    <h5>ACTIVIDAD ECONÓMICA</h5>
+    <p>Es una de las más estables de América. Entre las principales actividades se encuentran los servicios financieros, turísticos y logísticos. La economía panameña es la décima economía de América Latina en términos de PIB nominal (por encima de Costa Rica y antes que Ecuador).</p>
+
+    <h6>
+        <p style="color: white;">POBLACION DE PANAMA</p>
+    </h6>
+    <p>Un 7,32% de la población de Panamá son inmigrantes, según los últimos datos de inmigración publicados por la ONU. Panamá es el 72º país del mundo por porcentaje de inmigración.
+        Panamá tiene una densidad de población moderada de 58 habitantes por km².
+        En esta página te mostramos la evolución de la población en Panamá. Puedes ver un listado con la población de otros países clicando en Población y ver toda la información económica de Panamá en Economía de Panamá.
+    </p>
+
+    <h7>
+        <p style="color: blue;">CULTURA DE PANAMA</p>
+    </h7>
+    <p>La cultura de Panamá es el resultado de la fusión de diversas culturas que se han asentado en el país durante su historia: españoles, afro-antillanos, árabes, judíos, estadounidenses, chinos, etc. Esta combinación se observa en su vida, en su música, en la gastronomía y en el arte.
+        En la indumentaria tradicional se destaca la mola, un proceso inverso al tejido y que es confeccionado por la etnia indígena guna. También se destaca la pollera panameña, que es producto de la herencia española y considerado como traje folklórico de Panamá. La influencia española está presente en la arquitectura de las ciudades coloniales, en especial el Casco Antiguo de Panamá y en las provincias centrales del país.
+    </p>
+
+    <div id="pestaña3">
+        <table border="1">
+            <tr>
+                <th></th>
+                <th>sitio 1</th>
+                <th>sitio 2</th>
+                <th>sitio 3</th>
+                <th>sitio 4</th>
+                <th>sitio 5</th>
+            </tr>
+            <tr>
+                <td>ubicacion</td>
+                <td>ubicacion sitio 1</td>
+                <td>ubicacion sitio 2</td>
+                <td>ubicacion sitio 3</td>
+                <td>ubicacion sitio 4</td>
+                <td>ubicacion sitio 5</td>
+            </tr>
+            <tr>
+                <td>actividadades para hacer</td>
+                <td>actividades para hacer sitio 1</td>
+                <td>actividades para hacer sitio 2</td>
+                <td>actividades para hacer sitio 3</td>
+                <td>actividades para hacer sitio 4</td>
+                <td>actividades para hacer sitio 5</td>
+            </tr>
+        </table>
+    </div>
+
+    <footer>
+        <p>NOMBRE: JHOANA GOMEZ<br>
+            CURSO: 802<br>
+            COLEGIO: ANTONIO JOSE URIBE<br>
+            AÑO: 2024
+        </p>
+    </footer>
+
+    <script>
+        // ocultar todo el contenido de las pestañas al cargar la pagina
+        window.onload = function() {
+            var contenidos = document.querySelectorAll('div[id^="pestaña"]');
+            for (var i = 0; i < contenidos.length; i++) {
+                contenidos[i].style.display = 'none';
+            }
+        };
+
+        // muestra el contenido de la pestaña seleccionada
+        function mostrarContenido(id) {
+            document.getElementById(id).style.display = 'block';
+        }
+    </script>
+</body>
+</html>

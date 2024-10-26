@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Honduras</title>
+</head>
+<body>
+    <h1>
+        <p style="font-family:calibri; font-size:60px;">Honduras, país de la oportunidad</p>
+    </h1>
+    <img src="">
+    <div style="background-color:#0033FF;">
+        <!-- Este es un comentario que no se mostrará en la página web -->
+        <!-- Nótese que el color solo se aplica a lo que está debajo de la orden -->
+        <h2>
+            <p style="color: blue;">CAPITAL</p>
+        </h2>
+        <p>La capital de Honduras es la ciudad de Tegucigalpa, se encuentra en un:</br>
+        <br>valle rodeado de montañas</br>
+    </div>
+    <div style="background-color:#28B463;"></div>
+    <h3>
+        <p style="color: green;">PRESIDENTE ACTUAL</p>
+    </h3>
+    <p style="color: green;">Xiomara Castro desde el 2022-2026</p>
+    <p style="font-family:Arial;">LIMITE:</br>
+    <br>al norte con el Mar Caribe y el Océano Atlántico</br>
+    <br>al sur con Nicaragua, el golfo de Fonseca y el Océano Pacífico</br>
+    <br>al este con el Mar Caribe</br>
+    <br>al oeste con Guatemala</br>
+    <br>al noroeste con Guatemala</br>
+    <br>al suroeste con El Salvador</br>
+    </p>
+</body>
+</html>

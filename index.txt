@@ -1,0 +1,93 @@
+<!DOCTYPE html><html>    
+	<head>
+  
+		<title>PANAMA</title>   
+	</head>
+	<body>
+    <div>
+      <button onclik ="mostrar contenido('pestaña1')       </div id="pestaña1"> </button></div>
+                                                         <div>
+                                                                              <button onclik =mostrar contenido('pestaña'2)</div id="pestaña2"> </button></div> 
+                                                      <div>                                                  <button onclik ="mostrar contenido('pestaña3') </div id="pestaña3"> </button></div> 
+  
+  <h1>panama pais de muchos arboles</h1>
+  <img
+  
+  sr= C:\Users\Estudiante\Documents\JHOANA panama
+  
+	<h1> <p style="font-family: Calibri; style="font-size: 80px;"> PANAMA </p>  </p> </h1>	
+<div style="background-color: #f0f0f0;"> 
+      
+   sr=   
+      
+	<h2><p style="color: red;">  CAPITAL </h2>
+	<p> la capiatl de PANAMA queda ubicada en las  orillas del golfo de panama al este <br>
+      
+	 
+
+   <div style="background-color: #3498DB;"> 
+	<h3> <p style="color: blue;"> PRESIDENTE ACTUAL </h3>
+	<p style="font-family: Arial; style="font-size: 18px;"> El presidente acualmente de panama es Laurentino Cortizo  </p>
+</div style> (pestaña2")
+	
+ <div style="background-color: #E8DAEF;"> 
+	<h4> <p style="color: green;">LIMITES DE COLOMBIA</h4>
+	<p style="font-family: Times New Roman; style="font-size: 16px;> Colombia presenta los siguientes 	limites: <br> 
+        al sur con el atlantico <br>
+ 	Al sur con el pacifico <br>
+	Al noroeste con cplombia<br> 
+        al oeste con costa rica .</p>
+</div style>
+	</body>
+</html> 
+         <h5>ACTIVIDAD ECON0MICA <h5>
+       
+<p>es una de las más estables de América. Entre las principales actividades se encuentran los servicios financieros, turísticos y logísticos,  La economía panameña es la décima economía de América Latina en términos de PIB nominal,20​ (por encima de Costa Rica y antes que Ecuador) 
+  <h6> <p style="color:white;">poblacion del salvador
+ <P>  Un 7,32% de la población de Panamá son inmigrantes, según los últimos datos de inmigración publicados por la ONU. Panamá es el 72º país del mundo por porcentaje de inmigración.
+
+Panamá tiene una densidad de población moderada de 58 habitantes por Km2.
+     En esta página te mostramos la evolución de la población en Panamá, clicando en el siguiente enlace ver conocer más detalles sobre su pirámide de población. Puedes ver un listado con la población de otros países clicando en Población y ver toda la información económica de Panamá en Economía de Panamá </p>
+
+ <h7> <p style="color:blue;">cultura de panama
+   La cultura de Panamá es el resultado de la fusión de diversas culturas que se han asentado en el país durante su historia: españoles, afro-antillanos, árabes, judíos, estadounidenses, chinos, etc. Esta combinación se observa en su vida, en su música, en la gastronomía y en el arte.
+
+En la indumentaria tradicional se destaca las mola, un proceso de inverso al tejido y que es confeccionado por la etnia indígena guna. También se destaca la pollera panameña, que es producto de la herencia española y considerado como traje folklórico de Panamá. La influencia española está presente en la arquitectura de las ciudades coloniales, en especial el Casco Antiguo de Panamá y en las provincias centrales del país</p>
+   
+     </div>
+    <div id="pestaña3">
+   <table border="1">
+   <tr>
+     <th></th>
+     <th>sitio1 </th>
+     <th>sitio 2 </th>
+     <th>sitio 3 </th>
+     <th>sitio 4 </th>
+     <th>sitio 5 </th>
+     </tr>
+     <tr>
+       <td> ubicacion <td>
+         <td> ubicacion sitio 1 </td>
+         <td> ubicacion sitio 2 </td>
+         <td> ubicacion sitio 4 </td>
+         <td> ubicacion sitio 5 </td>
+         </tr>
+         <td> actividadades para hacer </td>
+         <td> actividades para hacer sitio 1</td>
+         <td> actividades para hacer sitio 2</td>
+         <td> actividades para hacer sitio 3</td>
+         <td> actividades para hacer sitio 4</td>
+         <td> actividades para hacer sitio 5</td>
+         </tr>
+       
+       </table>
+     </boody>
+      </html>
+           <footer>
+             <p> NOMBRE:JHOANA GOMEZ 
+               CURSO:802
+               COLEGIO:ANTONIO JOSE URIBE
+               AÑO:2024</P>
+    </footer>
+       
+<
